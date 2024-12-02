@@ -163,7 +163,7 @@ nav {
 
 .gallery-container {
     display: flex;
-    width: 100%;
+    width: 480px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
@@ -176,9 +176,8 @@ nav {
 }
 
 .gallery-item {
-    flex: 0 0 auto;
+    flex: 0 0 100%;
     width: 100%;
-    max-width: 480px;
     scroll-snap-align: start;
 }
 
@@ -258,8 +257,8 @@ nav {
         display: none;
     }
     
-    .gallery-item {
-        max-width: 400px;
+    .gallery-container {
+        width: 400px;
     }
     
     .gallery-btn {

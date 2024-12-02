@@ -35,9 +35,7 @@ header {
 
 nav {
     margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
 }
 
 nav ul {
@@ -67,36 +65,31 @@ nav a:hover {
 
 .nav-links {
     display: flex;
-    gap: 3rem;
-}
-
-.nav-links a {
-    color: var(--text-primary);
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 1rem;
-    transition: color 0.2s ease;
-    padding: 0.5rem 0;
-}
-
-.nav-links a:hover {
-    color: var(--accent);
+    gap: 2rem;
 }
 
 @media (max-width: 768px) {
-    nav ul {
-        gap: 1.5rem;
-        flex-wrap: wrap;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
     
-    nav a {
-        font-size: 0.95rem;
+    nav ul {
+        width: 100%;
+        justify-content: space-between;
+        gap: 1rem;
     }
     
     .nav-links {
         display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
+        gap: 1rem;
+    }
+    
+    nav a {
+        font-size: 0.95rem;
+        white-space: nowrap;
     }
 }
 

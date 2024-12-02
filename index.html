@@ -15,22 +15,25 @@
     <div class="container">
         <header>
             <nav>
-                <div class="logo">Luna Liu</div>
+                <a href="/" class="logo">Luna Liu</a>
                 <div class="nav-links">
                     <a href="#about">About</a>
                     <a href="#work">Work</a>
+                    <a href="#writing">Writing</a>
                     <a href="#contact">Contact</a>
                 </div>
             </nav>
         </header>
 
         <section id="hero" class="fade-in">
-            <h1>Building technology<br>that matters.</h1>
-            <p class="subtitle">Software engineer focused on creating elegant solutions to complex problems. Currently working on projects that push the boundaries of what's possible.</p>
-            <div class="social-links">
-                <a href="https://github.com/jingyilunaliu" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-                <a href="mailto:hello@jingyilunaliu.xyz">Email</a>
+            <div class="hero-content">
+                <h1>Building technology that enhances human potential.</h1>
+                <p class="subtitle">I'm a software engineer focused on creating elegant solutions to complex problems. Currently exploring the intersection of AI and human-computer interaction.</p>
+                <div class="social-links">
+                    <a href="https://github.com/jingyilunaliu" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                    <a href="mailto:hello@jingyilunaliu.xyz">Email</a>
+                </div>
             </div>
         </section>
 
@@ -38,38 +41,57 @@
             <div class="about-content">
                 <img src="profile.jpg" alt="Luna Liu" class="profile-img">
                 <div class="about-text">
-                    <p>I'm a software engineer with a passion for building products that make a difference. My work spans from full-stack development to exploring emerging technologies.</p>
-                    <p>Previously, I've worked on [Your Previous Experience]. Currently, I'm focused on [Your Current Focus].</p>
-                    <p>When I'm not coding, you'll find me [Your Interests/Hobbies].</p>
+                    <h2>About</h2>
+                    <p>I'm a software engineer passionate about building technology that makes a meaningful impact. My work focuses on creating intuitive interfaces and robust systems that solve real-world problems.</p>
+                    <p>Previously, I worked on [Previous Experience]. Currently, I'm exploring [Current Focus], with a particular interest in [Specific Area].</p>
+                    <p>Beyond coding, I [Your Interests/Hobbies]. I believe in [Your Philosophy/Approach].</p>
                 </div>
             </div>
         </section>
 
         <section id="work" class="fade-in">
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Project One</h3>
-                    <p>A brief description of what this project does and what technologies were used.</p>
-                    <div class="project-links">
-                        <a href="#" class="btn-outline">View Project</a>
-                    </div>
+            <h2>Selected Work</h2>
+            <div class="work-grid">
+                <div class="work-item">
+                    <h3 class="work-title">Project One</h3>
+                    <p class="work-description">A detailed description of what this project does, the problems it solves, and the technologies used in its implementation.</p>
+                    <a href="#" class="link">View Project →</a>
                 </div>
-                <div class="project-card">
-                    <h3>Project Two</h3>
-                    <p>Another interesting project that showcases different skills and technologies.</p>
-                    <div class="project-links">
-                        <a href="#" class="btn-outline">View Project</a>
-                    </div>
+                <div class="work-item">
+                    <h3 class="work-title">Project Two</h3>
+                    <p class="work-description">Another significant project that demonstrates different skills and approaches to problem-solving.</p>
+                    <a href="#" class="link">View Project →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="writing" class="fade-in">
+            <h2>Writing</h2>
+            <div class="work-grid">
+                <div class="work-item">
+                    <h3 class="work-title">Article Title</h3>
+                    <p class="work-description">A brief description of what this article discusses and its key insights.</p>
+                    <a href="#" class="link">Read More →</a>
                 </div>
             </div>
         </section>
 
         <section id="contact" class="fade-in">
+            <h2>Get in Touch</h2>
             <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <textarea name="message" placeholder="Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
             </form>
         </section>
 

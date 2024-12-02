@@ -12,29 +12,45 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Fade in elements on scroll
-    const fadeInElements = document.querySelectorAll('.fade-in');
-
-    const fadeInOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px"
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
     };
 
-    const fadeInOnScroll = new IntersectionObserver(function(entries, fadeInOnScroll) {
+    const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
-            if (!entry.isIntersecting) {
-                return;
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
             }
-            entry.target.style.opacity = 1;
-            entry.target.style.transform = 'translateY(0)';
-            fadeInOnScroll.unobserve(entry.target);
         });
-    }, fadeInOptions);
+    }, observerOptions);
 
-    fadeInElements.forEach(element => {
-        element.style.opacity = 0;
-        element.style.transform = 'translateY(20px)';
-        element.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
-        fadeInOnScroll.observe(element);
+    document.querySelectorAll('.fade-in').forEach((element) => {
+        observer.observe(element);
+    });
+
+    // Handle email click
+    document.querySelector('.social-links a[href^="mailto"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        const email = 'jingyilunaliu@hotmail.com';
+        
+        // Try to open email client
+        window.location.href = `mailto:${email}`;
+        
+        // Fallback: Copy to clipboard
+        navigator.clipboard.writeText(email).then(() => {
+            alert('Email address copied to clipboard: ' + email);
+        }).catch(() => {
+            // If clipboard fails, create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = email;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            alert('Email address copied to clipboard: ' + email);
+        });
     });
 
     // Form submission handling

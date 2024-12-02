@@ -183,14 +183,16 @@ nav {
 }
 
 .social-links a {
-    color: var(--text-secondary);
+    color: #2563EB;
     text-decoration: none;
-    font-size: 1rem;
+    margin-right: 1.5rem;
+    font-weight: 500;
     transition: color 0.2s ease;
+    cursor: pointer;
 }
 
 .social-links a:hover {
-    color: var(--text-primary);
+    color: #1E40AF;
 }
 
 /* Contact Form */

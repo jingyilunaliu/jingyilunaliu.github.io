@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Victoria Typewriter';
+    src: url('victoria.woff2') format('woff2'),
+         url('victoria.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

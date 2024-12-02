@@ -53,6 +53,50 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Gallery scroll functionality
+    function scrollGallery(direction) {
+        const gallery = document.querySelector('.gallery-container');
+        const scrollAmount = 320; // Width of image + gap
+        
+        if (direction === 'left') {
+            gallery.scrollBy({
+                left: -scrollAmount,
+                behavior: 'smooth'
+            });
+        } else {
+            gallery.scrollBy({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+    }
+
+    // Add touch scrolling for mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    document.querySelector('.photo-gallery').addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+
+    document.querySelector('.photo-gallery').addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    });
+
+    function handleSwipe() {
+        const swipeThreshold = 50;
+        const swipeLength = touchEndX - touchStartX;
+        
+        if (Math.abs(swipeLength) > swipeThreshold) {
+            if (swipeLength > 0) {
+                scrollGallery('left');
+            } else {
+                scrollGallery('right');
+            }
+        }
+    }
+
     // Form submission handling
     if (contactForm) {
         contactForm.addEventListener('submit', async (e) => {

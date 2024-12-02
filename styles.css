@@ -74,11 +74,12 @@ nav {
 }
 
 .subtitle {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     color: var(--text-secondary);
     margin-bottom: 2rem;
-    line-height: 1.6;
+    line-height: 2;
     font-weight: normal;
+    opacity: 0.85;
 }
 
 /* Social Links */

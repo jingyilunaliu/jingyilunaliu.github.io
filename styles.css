@@ -155,7 +155,7 @@ nav {
 
 /* Photo Gallery */
 .photo-gallery {
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     width: 100%;
 }
 
@@ -167,7 +167,7 @@ nav {
 
 .gallery-item {
     width: 100%;
-    max-width: 500px;
+    max-width: 280px;
 }
 
 .gallery-item img {
@@ -242,6 +242,6 @@ nav {
     }
     
     .gallery-item {
-        max-width: 100%;
+        max-width: 240px;
     }
 }

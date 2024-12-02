@@ -168,7 +168,7 @@ nav {
 
 .gallery-item {
     width: 100%;
-    max-width: 450px;
+    max-width: 480px;
 }
 
 .gallery-item img {
@@ -241,6 +241,6 @@ nav {
     }
     
     .gallery-item {
-        max-width: 380px;
+        max-width: 400px;
     }
 }

@@ -168,15 +168,13 @@ nav {
 
 .gallery-item {
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .gallery-item img {
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 0.5rem;
 }
 
 .gallery-item figcaption {
@@ -243,6 +241,6 @@ nav {
     }
     
     .gallery-item {
-        max-width: 340px;
+        max-width: 380px;
     }
 }

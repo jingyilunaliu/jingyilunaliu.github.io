@@ -97,6 +97,60 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // Gallery navigation functionality
+    const gallery = document.querySelector('.gallery-container');
+    const prevBtn = document.querySelector('.gallery-btn.prev');
+    const nextBtn = document.querySelector('.gallery-btn.next');
+    
+    if (gallery && prevBtn && nextBtn) {
+        prevBtn.addEventListener('click', () => {
+            const scrollAmount = gallery.clientWidth;
+            gallery.scrollBy({
+                left: -scrollAmount,
+                behavior: 'smooth'
+            });
+        });
+        
+        nextBtn.addEventListener('click', () => {
+            const scrollAmount = gallery.clientWidth;
+            gallery.scrollBy({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Touch swipe support
+        let galleryTouchStartX = 0;
+        let galleryTouchEndX = 0;
+        
+        gallery.addEventListener('touchstart', (e) => {
+            galleryTouchStartX = e.changedTouches[0].screenX;
+        }, false);
+        
+        gallery.addEventListener('touchend', (e) => {
+            galleryTouchEndX = e.changedTouches[0].screenX;
+            handleGallerySwipe();
+        }, false);
+        
+        function handleGallerySwipe() {
+            const scrollAmount = gallery.clientWidth;
+            if (galleryTouchStartX - galleryTouchEndX > 50) {
+                // Swipe left
+                gallery.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            }
+            if (galleryTouchEndX - galleryTouchStartX > 50) {
+                // Swipe right
+                gallery.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    }
+
     // Form submission handling
     if (contactForm) {
         contactForm.addEventListener('submit', async (e) => {

@@ -43,7 +43,13 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     gap: 2rem;
+}
+
+nav li {
+    margin: 0;
 }
 
 nav a {
@@ -57,10 +63,8 @@ nav a:hover {
 }
 
 .logo {
-    font-size: 1.25rem;
     font-weight: normal;
-    color: var(--text-primary);
-    text-decoration: none;
+    font-size: 1.1rem;
 }
 
 .nav-links {
@@ -79,7 +83,7 @@ nav a:hover {
     nav ul {
         width: 100%;
         justify-content: space-between;
-        gap: 1rem;
+        gap: 1.5rem;
     }
     
     .nav-links {
@@ -89,7 +93,10 @@ nav a:hover {
     
     nav a {
         font-size: 0.95rem;
-        white-space: nowrap;
+    }
+    
+    .logo {
+        font-size: 1rem;
     }
 }
 

@@ -161,13 +161,14 @@ nav {
 
 .gallery-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
+    padding-left: 0;
 }
 
 .gallery-item {
     width: 100%;
-    max-width: 280px;
+    max-width: 150px;
 }
 
 .gallery-item img {
@@ -242,6 +243,6 @@ nav {
     }
     
     .gallery-item {
-        max-width: 240px;
+        max-width: 130px;
     }
 }

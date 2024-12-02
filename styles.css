@@ -36,6 +36,9 @@ header {
 nav {
     margin-top: 2rem;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 nav ul {
@@ -43,19 +46,25 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    width: 100%;
 }
 
 nav li {
-    margin: 0;
+    margin-right: 2rem;
+}
+
+nav li:last-child {
+    margin-right: 0;
 }
 
 nav a {
     color: var(--text-primary);
     text-decoration: none;
     transition: color 0.2s ease;
+    font-size: 1rem;
+    white-space: nowrap;
 }
 
 nav a:hover {
@@ -64,39 +73,25 @@ nav a:hover {
 
 .logo {
     font-weight: normal;
-    font-size: 1.1rem;
-}
-
-.nav-links {
-    display: flex;
-    gap: 2rem;
 }
 
 @media (max-width: 768px) {
     nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
+        margin-top: 1.5rem;
     }
     
     nav ul {
-        width: 100%;
+        display: flex;
         justify-content: space-between;
-        gap: 1.5rem;
+        padding: 0 0.5rem;
     }
     
-    .nav-links {
-        display: flex;
-        gap: 1rem;
+    nav li {
+        margin-right: 1rem;
     }
     
     nav a {
-        font-size: 0.95rem;
-    }
-    
-    .logo {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 

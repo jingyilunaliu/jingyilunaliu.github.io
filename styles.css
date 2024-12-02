@@ -34,9 +34,28 @@ header {
 }
 
 nav {
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: var(--accent);
 }
 
 .logo {
@@ -62,6 +81,23 @@ nav {
 
 .nav-links a:hover {
     color: var(--accent);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+    
+    nav a {
+        font-size: 0.95rem;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
 }
 
 /* Hero Section */
@@ -251,10 +287,6 @@ nav {
     
     .subtitle {
         font-size: 1.25rem;
-    }
-    
-    .nav-links {
-        display: none;
     }
     
     .gallery-container {

@@ -10,79 +10,106 @@
     <link rel="stylesheet" href="../fonts/victoria.css">
     <link rel="stylesheet" href="../styles.css?v=5">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'IBM Plex Mono', monospace;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+            color: #373537;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 1em;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1em;
+        }
+        .article-title {
+            font-size: 1.875rem;
+            margin: 1.5em 0;
+            cursor: pointer;
+            color: #007bff;
+            text-decoration: underline;
+        }
+        .article-title:hover {
+            text-decoration: none;
+        }
+        .article-content {
+            margin-left: 1em;
+            margin-right: 1em;
+            padding: 1em;
+            border-left: 4px solid #007bff;
+            background: #f9f9f9;
+            border-radius: 4px;
+        }
+        figure {
+            margin: 1.5em 0;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <a href="/" class="logo">Luna Liu</a>
-        <div class="nav-links">
-            <a href="/writings">Writings</a>
-            <a href="/about">About</a>
-        </div>
-    </nav>
-
-    <section class="writings-list fade-in">
+    <div class="container">
         <h1>Writings</h1>
-        <div class="writings-grid">
-            <article id="13f247bd-179e-80e2-9372-c69d231cc7f8" class="page sans">
-                <header>
-                    <div class="page-header-icon undefined"><span class="icon">🎄</span></div>
-                    <h2 class="page-title">My First Developer Diary: Building Tree Magic</h2> <!-- 改为 h2 -->
-                    <p class="page-description"></p>
-                </header>
-                <div class="page-body">
-                    <figure id="165247bd-179e-806c-9bee-e5fb5f26334a" class="image">
-                        <a href="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM1.png">
-                            <img style="width:100%;" src="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM1.png" alt="Tree Magic on the Vision App Store"/>
-                        </a>
-                        <figcaption>Tree Magic on the Vision App Store</figcaption>
-                    </figure>
-                    <p>During my year in London, my roommate Meichun always wanted a Christmas tree. Though I hesitated at first about getting a tree for our one-year rental, her enthusiasm was contagious. I ended up buying a tree my height from Westfield to surprise her.</p>
-                    <figure id="165247bd-179e-8056-abf8-c0c57299e3de" class="image">
-                        <a href="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM2.jpeg">
-                            <img style="width:100%;" src="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM2.jpeg" alt="Christmas Tree"/>
-                        </a>
-                    </figure>
-                    <p>After returning to China, I wanted to celebrate Christmas properly and bought a large Christmas tree for my living room, but as living space became increasingly limited, I had no choice but to pack up the tree and send it back to Suzhou.</p>
-                    <p>After Vision Pro's release, many things I dreamed of owning no longer needed to exist in physical form. With the headset’s powerful display capabilities, 3D models can seamlessly coexist with real objects, forming a new world for us to live in.</p>
-                    <p>In the first winter following Vision Pro's release, I wanted to build a Christmas tree app—one that would capture the same feeling I had when buying that tree in London.</p>
-                    <p>Luckily, three developer friends also wanted to experiment with visionOS, so the four of us decided to build the tree together.</p>
-                    <p>Just as I often lounge on the couch with Taylor Swift playing, choosing the nighttime Bora Bora visionOS background and spending 20 minutes watching palm trees sway in the breeze, Vision Pro brings the island vacation experience within reach. Our motivation for creating Tree Magic is to give everyone who wants a Christmas tree but is limited by space or storage concerns their very own tree, along with the joy of choosing colors, toppers and ornaments.</p>
-                    <figure id="165247bd-179e-8071-96da-c50d8222cd89" class="image">
-                        <a href="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM3.jpeg">
-                            <img style="width:100%;" src="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM3.jpeg" alt="Tree Magic"/>
-                        </a>
-                    </figure>
-                    <p><mark class="highlight-gray">Tree Magic Team: Weidi Tang, Min Pan, Yuchen Wang, Luna Liu</mark></p>
-                    <p>With all of us working full-time jobs, we had limited time to build the tree, dedicating only one week to serious development. While our lead developer Weidi could work on it all day during her company's Christmas break, the rest of us could only start after 9 PM every day.</p>
-                    <p>Despite our complaints during development, something special happened each time Yuchen and I put on the Vision Pro to test the demo. When the work-in-progress tree appeared in my living room—whether placed on the table or in an open space—I felt like I truly owned a Christmas tree.</p>
-                    <figure id="165247bd-179e-80df-bc52-f5e7f0c5b283" class="image">
-                        <a href="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM4.jpeg">
-                            <img style="width:100%;" src="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM4.jpeg" alt="Spatial Christmas Tree"/>
-                        </a>
-                        <figcaption>Our spatial Christmas tree in a mixed reality environment</figcaption>
-                    </figure>
-                    <p><strong>🪄Developer's New Year Wishes</strong></p>
-                    <ol>
-                        <li>More high-quality 3D model resources and 3D model creation/editing tools...</li>
-                        <li>anchoring API in shared space</li>
-                        <li>a coding copilot integrated into Xcode...</li>
-                        <li>It seems we’ve hit the model height limit...</li>
-                    </ol>
-                    <p>I welcome users, developers, founders, builders and researchers to reach out at <a href="mailto:jingyilunaliu@hotmail.com">jingyilunaliu@hotmail.com</a> to discuss XR and spatial computing ideas, products, and technologies!</p>
-                    <p>We wish you a merry Christmas,</p>
-                    <p>Luna</p>
-                    <p><em><mark class="highlight-gray">working in an early-stage investment firm, a curious mind</mark></em></p>
-                    <p>jingyilunaliu.xyz</p>
-                    <figure id="165247bd-179e-8041-b012-dc96ce5e6580" class="image">
-                        <a href="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM5.jpeg">
-                            <img style="width:100%;" src="My%20First%20Developer%20Diary%20Building%20Tree%20Magic%2013f247bd179e80e29372c69d231cc7f8/TM5.jpeg" alt="Tree Magic"/>
-                        </a>
-                    </figure>
-                </div>
-            </article>
+        <div class="article-title" onclick="document.getElementById('article1').style.display='block'">
+            My First Developer Diary: Building Tree Magic
         </div>
-    </section>
+        <div id="article1" class="article-content" style="display:none;">
+            <figure>
+                <img src="images/TM1.png" alt="Tree Magic on the Vision App Store"/>
+                <figcaption>Tree Magic on the Vision App Store</figcaption>
+            </figure>
+            <p>During my year in London, my roommate Meichun always wanted a Christmas tree. Though I hesitated at first about getting a tree for our one-year rental, her enthusiasm was contagious. I ended up buying a tree my height from Westfield to surprise her.</p>
+            <figure>
+                <img src="images/TM2.jpeg" alt="Christmas Tree"/>
+            </figure>
+            <p>After returning to China, I wanted to celebrate Christmas properly and bought a large Christmas tree for my living room, but as living space became increasingly limited, I had no choice but to pack up the tree and send it back to Suzhou.</p>
+            <p>After Vision Pro's release, many things I dreamed of owning no longer needed to exist in physical form. With the headset’s powerful display capabilities, 3D models can seamlessly coexist with real objects, forming a new world for us to live in.</p>
+            <p>In the first winter following Vision Pro's release, I wanted to build a Christmas tree app—one that would capture the same feeling I had when buying that tree in London.</p>
+            <p>Luckily, three developer friends also wanted to experiment with visionOS, so the four of us decided to build the tree together.</p>
+            <p>Just as I often lounge on the couch with Taylor Swift playing, choosing the nighttime Bora Bora visionOS background and spending 20 minutes watching palm trees sway in the breeze, Vision Pro brings the island vacation experience within reach. Our motivation for creating Tree Magic is to give everyone who wants a Christmas tree but is limited by space or storage concerns their very own tree, along with the joy of choosing colors, toppers and ornaments.</p>
+            <figure>
+                <img src="images/TM3.jpeg" alt="Tree Magic"/>
+            </figure>
+            <p><mark class="highlight-gray">Tree Magic Team: Weidi Tang, Min Pan, Yuchen Wang, Luna Liu</mark></p>
+            <p>With all of us working full-time jobs, we had limited time to build the tree, dedicating only one week to serious development. While our lead developer Weidi could work on it all day during her company's Christmas break, the rest of us could only start after 9 PM every day.</p>
+            <p>Despite our complaints during development, something special happened each time Yuchen and I put on the Vision Pro to test the demo. When the work-in-progress tree appeared in my living room—whether placed on the table or in an open space—I felt like I truly owned a Christmas tree.</p>
+            <figure>
+                <img src="images/TM4.jpeg" alt="Spatial Christmas Tree"/>
+                <figcaption>Our spatial Christmas tree in a mixed reality environment</figcaption>
+            </figure>
+            <p><strong>🪄Developer's New Year Wishes</strong></p>
+            <ol>
+                <li>More high-quality 3D model resources and 3D model creation/editing tools...</li>
+                <li>anchoring API in shared space</li>
+                <li>a coding copilot integrated into Xcode...</li>
+                <li>It seems we’ve hit the model height limit...</li>
+            </ol>
+            <p>I welcome users, developers, founders, builders and researchers to reach out at <a href="mailto:jingyilunaliu@hotmail.com">jingyilunaliu@hotmail.com</a> to discuss XR and spatial computing ideas, products, and technologies!</p>
+            <p>We wish you a merry Christmas,</p>
+            <p>Luna</p>
+            <p><em><mark class="highlight-gray">working in an early-stage investment firm, a curious mind</mark></em></p>
+            <p>jingyilunaliu.xyz</p>
+            <figure>
+                <img src="images/TM5.jpeg" alt="Tree Magic"/>
+            </figure>
+        </div>
+    </div>
 
-    <script src="../script.js"></script>
+    <script>
+        // JavaScript to toggle article visibility can be added here if needed
+    </script>
 </body>
 </html>

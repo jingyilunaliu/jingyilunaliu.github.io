@@ -241,9 +241,8 @@ nav a:hover {
     color: var(--text-primary); /* 使用主要文本颜色 */
 }
 p {
-    margin-bottom: 1em; /* 或者使用具体像素值，如 16px */
+    margin-bottom: calc(2 * 1.2rem); /* 假设默认行高是1.2rem */
 }
-
 /* Animations */
 @keyframes fadeIn {
     from {

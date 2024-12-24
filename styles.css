@@ -184,6 +184,29 @@ nav a:hover {
     font-weight: normal;
 }
 
+/* About Section */
+.about-content {
+    display: none; /* 初始隐藏 */
+    margin: 2em 0; /* 上下空隙 */
+    padding: 1em; /* 内边距 */
+    background: var(--background-secondary); /* 使用定义的背景颜色 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+.about-content h2 {
+    font-size: 2rem; /* 标题字体大小 */
+    margin-bottom: 1em; /* 标题下方空隙 */
+    color: var(--text-primary); /* 使用主要文本颜色 */
+}
+
+.about-content p {
+    line-height: 1.6; /* 行高 */
+    margin: 0.5em 0; /* 段落上下空隙 */
+    text-indent: 2em; /* 段落首行缩进 */
+    color: var(--text-primary); /* 使用主要文本颜色 */
+}
+
 /* Photo Gallery */
 .photo-gallery {
     margin-top: 2.5rem;

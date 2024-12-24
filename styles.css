@@ -202,7 +202,7 @@ nav a:hover {
 
 .about-content p {
     line-height: 1.6; /* 行高 */
-    margin: 0.5em 0; /* 段落上下空隙 */
+    margin: 1em 0; /* 段落上下空隙，增加上下间距 */
     text-indent: 2em; /* 段落首行缩进 */
     color: var(--text-primary); /* 使用主要文本颜色 */
 }

@@ -240,6 +240,10 @@ nav a:hover {
     text-indent: 2em; /* 段落首行缩进 */
     color: var(--text-primary); /* 使用主要文本颜色 */
 }
+/* 额外的段落样式，确保段落之间有更大的间距 */
+.about-content p + p {
+    margin-top: 2em; /* 段落之间的额外间距 */
+}
 
 /* Animations */
 @keyframes fadeIn {

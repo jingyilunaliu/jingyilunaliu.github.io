@@ -291,6 +291,20 @@ nav a:hover {
     margin-bottom: 0;
 }
 
+/* About page mobile optimization */
+@media (max-width: 768px) {
+    #about h2 {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    #about p {
+        font-size: 0.95rem;
+        line-height: 1.9;
+        margin-bottom: 1.8rem;
+    }
+}
+
 .about-content {
     display: none; /* 初始隐藏 */
     margin: 2em 0; /* 上下空隙 */

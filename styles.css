@@ -128,14 +128,14 @@ nav a:hover {
 .subtitle {
     font-size: 1rem;
     color: var(--text-secondary);
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
     font-weight: normal;
     opacity: 0.85;
 }
 
 .subtitle p {
     line-height: 1.5;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.8rem;
 }
 
 .subtitle p:last-child {
@@ -145,21 +145,21 @@ nav a:hover {
 /* Larger font size for desktop */
 @media (min-width: 768px) {
     .subtitle {
-        font-size: 1.125rem;
+        font-size: 1.25rem;
     }
 
     .subtitle p {
-        margin-bottom: 1rem;
+        margin-bottom: 1.4rem;
     }
 }
 
 @media (min-width: 1200px) {
     .subtitle {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 
     .subtitle p {
-        margin-bottom: 0.8rem;
+        margin-bottom: 1.2rem;
     }
 }
 
@@ -347,7 +347,7 @@ p {
 }
 
 .project-content h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
     color: var(--text-primary);
     font-weight: normal;

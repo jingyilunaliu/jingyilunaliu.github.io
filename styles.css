@@ -126,12 +126,41 @@ nav a:hover {
 }
 
 .subtitle {
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: var(--text-secondary);
     margin-bottom: 2rem;
-    line-height: 2;
     font-weight: normal;
     opacity: 0.85;
+}
+
+.subtitle p {
+    line-height: 1.5;
+    margin-bottom: 1.2rem;
+}
+
+.subtitle p:last-child {
+    margin-bottom: 0;
+}
+
+/* Larger font size for desktop */
+@media (min-width: 768px) {
+    .subtitle {
+        font-size: 1.125rem;
+    }
+
+    .subtitle p {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .subtitle {
+        font-size: 1.25rem;
+    }
+
+    .subtitle p {
+        margin-bottom: 0.8rem;
+    }
 }
 
 /* Social Links */
@@ -270,10 +299,11 @@ p {
 }
 
 .projects-list h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     color: var(--text-primary);
     font-weight: normal;
+    font-style: italic;
 }
 
 .projects-grid {
@@ -369,6 +399,17 @@ p {
     .project-image {
         flex: none;
     }
+
+    .project-content h3 {
+        font-size: 1.125rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .project-description {
+        font-size: 0.9rem;
+        line-height: 1.8;
+        margin-bottom: 1.25rem;
+    }
 }
 
 /* Gallery item links */
@@ -388,10 +429,11 @@ p {
 }
 
 .writings-list h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     color: var(--text-primary);
     font-weight: normal;
+    font-style: italic;
 }
 
 .writings-grid {

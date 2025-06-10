@@ -269,6 +269,28 @@ nav a:hover {
 }
 
 /* About Section */
+#about {
+    padding: 2rem 0;
+}
+
+#about h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    color: var(--text-primary);
+    font-weight: normal;
+    font-style: italic;
+}
+
+#about p {
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+}
+
+#about p:last-child {
+    margin-bottom: 0;
+}
+
 .about-content {
     display: none; /* 初始隐藏 */
     margin: 2em 0; /* 上下空隙 */

@@ -125,6 +125,15 @@ nav a:hover {
     max-width: 100%;
 }
 
+.current-title {
+    margin-bottom: 1.25rem;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    opacity: 0.68;
+}
+
 .subtitle {
     font-size: 1rem;
     color: var(--text-secondary);

@@ -44,6 +44,9 @@
 .currently-footer span span { margin-left: 0.5rem; }
 .currently-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 
+@media (min-width: 1600px) {
+    .currently-track { grid-auto-columns: calc((100% - 4.5rem) / 4); }
+}
 @media (max-width: 768px) {
     .currently-controls { display: none; }
     .currently-track { grid-auto-columns: 44%; gap: 1.25rem; }

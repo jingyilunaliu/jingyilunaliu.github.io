@@ -44,7 +44,7 @@ h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); }
 h2 { font-size: clamp(1.65rem, 3vw, 2rem); }
 h3 { font-size: 1.6rem; }
 img { max-width: 100%; }
-.container { max-width: 1080px; margin: 0 auto; padding: 0 64px 64px; }
+.container { width: 100%; max-width: 1600px; margin: 0 auto; padding: 0 clamp(32px, 5vw, 80px) 64px; }
 
 /* Navigation */
 header { padding: 36px 0 28px; }
@@ -134,14 +134,15 @@ nav .logo { display: inline-flex; align-items: center; gap: 0; font: normal 17px
     .project-item { gap: 28px; }
 }
 @media (max-width: 540px) {
+    :root { --mobile-doodle-gap: 44px; }
     .container { padding-inline: 22px; }
     nav ul { flex-wrap: wrap; gap: 0 25px; }
     nav li:first-child { flex-basis: 100%; margin-bottom: 10px; }
     nav a { font-size: 12px; }
     .current-title { font-size: 10px; }
-    #hero { padding-top: 15px; padding-bottom: 44px; }
-    .section-doodle { position: static; transform: none; margin: 0 auto 44px; }
-    .featured-project { margin-top: 64px; padding-top: 0; }
+    #hero { padding-top: 15px; padding-bottom: var(--mobile-doodle-gap); }
+    .section-doodle { position: static; transform: none; margin: 0 auto var(--mobile-doodle-gap); }
+    .featured-project { margin-top: var(--mobile-doodle-gap); padding-top: 0; }
     #hero .current-title { margin-bottom: 14px; }
     .subtitle, #hero h1 { font-size: 15px; line-height: 1.65; }
     #hero h1 { margin-top: 18px; margin-bottom: 22px; }

@@ -139,8 +139,12 @@ nav .logo { display: inline-flex; align-items: center; gap: 10px; font: normal 1
     nav li:first-child { flex-basis: 100%; margin-bottom: 10px; }
     nav a { font-size: 12px; }
     .current-title { font-size: 10px; }
-    #hero h1 { margin-bottom: 28px; }
-    .section-heading-row { align-items: center; gap: 16px; }
+    #hero { padding-top: 28px; padding-bottom: 56px; }
+    #hero .current-title { margin-bottom: 14px; }
+    .subtitle, #hero h1 { font-size: 15px; line-height: 1.65; }
+    #hero h1 { margin-top: 18px; margin-bottom: 22px; }
+    .social-links { font-size: 12px; }
+    .section-heading-row { flex-direction: column; align-items: flex-start; gap: 8px; margin-bottom: 22px; }
     .featured-project-grid { grid-template-columns: 1fr; gap: 24px; }
     .project-item { flex-direction: column; align-items: stretch; gap: 24px; }
     .project-image { flex-basis: auto; }

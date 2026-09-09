@@ -14,6 +14,21 @@
     let announcement;
 
     function update() {
+        if (window.matchMedia('(max-width: 540px)').matches) {
+            // Keep the hint close to the visible card, even when other reviews are longer.
+            const bounds = track.getBoundingClientRect();
+            const visible = cards.filter(card => {
+                const box = card.getBoundingClientRect();
+                return box.right > bounds.left + 2 && box.left < bounds.right - 2;
+            });
+            if (visible.length) {
+                const height = Math.max(...visible.map(card => card.getBoundingClientRect().height));
+                const style = getComputedStyle(track);
+                track.style.height = `${Math.ceil(height + parseFloat(style.paddingTop) + parseFloat(style.paddingBottom))}px`;
+            }
+        } else {
+            track.style.removeProperty('height');
+        }
         const maximum = track.scrollWidth - track.clientWidth;
         controls.hidden = maximum <= 2;
         previous.setAttribute('aria-disabled', String(track.scrollLeft <= 2));
@@ -58,7 +73,11 @@
         }, 200);
     }, { passive: true });
 
-    if ('ResizeObserver' in window) new ResizeObserver(update).observe(track);
+    if ('ResizeObserver' in window) {
+        const observer = new ResizeObserver(update);
+        observer.observe(track);
+        cards.forEach(card => observer.observe(card));
+    }
     else window.addEventListener('resize', update);
     update();
 })();

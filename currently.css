@@ -51,14 +51,15 @@
     .currently h2 { max-width: 340px; }
 }
 @media (max-width: 540px) {
-    .currently-track { grid-auto-columns: 100%; gap: 16px; }
+    .currently { padding-top: 0; }
+    .currently-track { grid-auto-columns: 100%; gap: 16px; align-items: start; }
     .currently-heading-row { display: block; }
     .currently h2 { max-width: none; font-size: 1.65rem; }
     .currently .currently-intro { margin: 10px 0 20px; font-size: 12px; }
     .currently .currently-kind { margin: 16px 0 8px; }
     .currently .currently-creator { margin-top: 6px; }
     .currently blockquote, .currently .currently-note { margin-top: 18px; padding-top: 0; }
-    .currently-footer { margin-top: 14px; padding-top: 8px; font-size: 11px; }
+    .currently-footer { margin-top: 4px; padding-top: 0; font-size: 11px; }
 }
 @media (prefers-reduced-motion: reduce) {
     .currently *, .currently *::before, .currently *::after { transition: none; scroll-behavior: auto; }

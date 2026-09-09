@@ -2,17 +2,17 @@
 .currently {
     --shelf-ink: var(--text-primary);
     --shelf-muted: var(--text-secondary);
-    margin: 0;
+    margin: var(--section-space) 0 0;
     position: relative;
     padding-top: 34px;
     color: var(--shelf-ink);
 }
 
-.currently-heading-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 1.5rem; }
+.currently-heading-row { position: relative; display: flex; align-items: center; justify-content: center; padding-inline: 112px; text-align: center; }
 .currently h2 { font-family: var(--font-display); font-size: clamp(1.65rem, 3vw, 2rem); font-weight: normal; line-height: 1.2; letter-spacing: -0.035em; }
 .currently h2 em { font-weight: normal; }
-.currently .currently-intro { margin: 10px 0 26px; color: var(--shelf-muted); font-size: 13px; line-height: 1.6; }
-.currently-controls { display: flex; gap: 0.5rem; flex-shrink: 0; }
+.currently .currently-intro { margin: 10px 0 26px; color: var(--shelf-muted); font-size: 13px; line-height: 1.6; text-align: center; }
+.currently-controls { position: absolute; right: 0; top: 50%; transform: translateY(-50%); display: flex; gap: 0.5rem; }
 .currently-controls[hidden] { display: none; }
 .currently-button { width: 44px; height: 44px; border: 1px solid var(--border); border-radius: 50%; background: transparent; color: var(--shelf-ink); font: 1.25rem var(--font-code); cursor: pointer; transition: background 180ms, border-color 180ms; }
 .currently-button:hover:not([aria-disabled="true"]) { background: var(--background-secondary); border-color: #8e8b7d; }
@@ -50,11 +50,11 @@
 @media (max-width: 768px) {
     .currently-controls { display: none; }
     .currently-track { grid-auto-columns: 44%; gap: 1.25rem; }
-    .currently-heading-row { align-items: flex-end; gap: 0.75rem; }
+    .currently-heading-row { padding-inline: 0; }
     .currently h2 { max-width: 340px; }
 }
 @media (max-width: 540px) {
-    .currently { padding-top: 0; }
+    .currently { margin-top: var(--mobile-doodle-gap); padding-top: 0; }
     .currently-track { grid-auto-columns: 100%; gap: 16px; align-items: start; }
     .currently-heading-row { display: block; }
     .currently h2 { max-width: none; font-size: 1.65rem; }

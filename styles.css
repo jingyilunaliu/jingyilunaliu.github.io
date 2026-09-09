@@ -1,4 +1,25 @@
 /* Shared editorial typography and spacing across the site. */
+@font-face {
+    font-family: 'Chaparral Pro';
+    src: url('fonts/chaparral-pro-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Chaparral Pro';
+    src: url('fonts/chaparral-pro-italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Chaparral Pro';
+    src: url('fonts/chaparral-pro-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 :root {
     --text-primary: #303d37;
     --text-secondary: #68726b;
@@ -6,7 +27,7 @@
     --background-primary: #faf8f2;
     --background-secondary: #eeeee5;
     --border: #dcded3;
-    --font-display: Georgia, 'Times New Roman', 'Songti SC', serif;
+    --font-display: 'Chaparral Pro', Georgia, 'Times New Roman', 'Songti SC', serif;
     --font-body: var(--font-code);
     --font-meta: var(--font-code);
     --font-code: Menlo, Consolas, 'Liberation Mono', monospace;
@@ -26,12 +47,13 @@ img { max-width: 100%; }
 .container { max-width: 1080px; margin: 0 auto; padding: 0 64px 64px; }
 
 /* Navigation */
-header { padding: 36px 0 28px; border-bottom: 1px solid var(--border); }
+header { padding: 36px 0 28px; }
 nav ul { display: flex; align-items: center; gap: 28px; list-style: none; }
 nav li:first-child { margin-right: auto; }
 nav a { display: inline-block; padding: 8px 0; font-family: var(--font-code); font-size: 13px; text-decoration: none; color: var(--text-secondary); white-space: nowrap; }
 nav a[aria-current='page']:not(.logo) { color: var(--text-primary); text-decoration: underline; text-decoration-color: #8fa396; }
-nav .logo { font: normal 17px/1.5 var(--font-code); letter-spacing: -0.02em; color: var(--text-primary); }
+nav .logo { display: inline-flex; align-items: center; gap: 10px; font: normal 17px/1.5 var(--font-code); letter-spacing: -0.02em; color: var(--text-primary); }
+.luna-moon { width: 19px; height: 19px; flex: none; fill: none; stroke: #73938d; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; }
 
 /* Homepage introduction */
 #hero { padding: var(--section-space) 0; }
@@ -48,7 +70,9 @@ nav .logo { font: normal 17px/1.5 var(--font-code); letter-spacing: -0.02em; col
 .section-heading-row { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; margin-bottom: 30px; }
 .section-link { font-size: 12px; text-decoration: none; flex-shrink: 0; }
 .section-link:hover { text-decoration: underline; }
-.featured-project { margin-top: var(--section-space); padding-top: 30px; border-top: 1px solid var(--border); }
+.featured-project { position: relative; margin-top: var(--section-space); padding-top: 34px; }
+.section-doodle { position: absolute; top: -29px; left: 50%; width: 66px; height: 34px; transform: translateX(-50%); color: #73938d; pointer-events: none; }
+.section-doodle svg { display: block; width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width: 1.25; stroke-linecap: round; stroke-linejoin: round; }
 .featured-project-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 48px; }
 .featured-project-title { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-bottom: 18px; }
 .featured-project-copy h3 { font-family: var(--font-code); font-size: 22px; line-height: 1.4; letter-spacing: -0.04em; margin: 0; }

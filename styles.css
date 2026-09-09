@@ -52,8 +52,8 @@ nav ul { display: flex; align-items: center; gap: 28px; list-style: none; }
 nav li:first-child { margin-right: auto; }
 nav a { display: inline-block; padding: 8px 0; font-family: var(--font-code); font-size: 13px; text-decoration: none; color: var(--text-secondary); white-space: nowrap; }
 nav a[aria-current='page']:not(.logo) { color: var(--text-primary); text-decoration: underline; text-decoration-color: #8fa396; }
-nav .logo { display: inline-flex; align-items: center; gap: 10px; font: normal 17px/1.5 var(--font-code); letter-spacing: -0.02em; color: var(--text-primary); }
-.luna-moon { width: 19px; height: 19px; flex: none; fill: none; stroke: #73938d; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; }
+nav .logo { display: inline-flex; align-items: center; gap: 0; font: normal 17px/1.5 var(--font-code); letter-spacing: -0.02em; color: var(--text-primary); }
+.luna-moon { width: 19px; height: 19px; flex: none; margin-left: -3px; transform: translateY(5px) rotate(35deg); fill: none; stroke: #73938d; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; }
 
 /* Homepage introduction */
 #hero { padding: var(--section-space) 0; }
@@ -139,7 +139,7 @@ nav .logo { display: inline-flex; align-items: center; gap: 10px; font: normal 1
     nav li:first-child { flex-basis: 100%; margin-bottom: 10px; }
     nav a { font-size: 12px; }
     .current-title { font-size: 10px; }
-    #hero { padding-top: 28px; padding-bottom: 44px; }
+    #hero { padding-top: 15px; padding-bottom: 44px; }
     .section-doodle { position: static; transform: none; margin: 0 auto 44px; }
     .featured-project { margin-top: 64px; padding-top: 0; }
     #hero .current-title { margin-bottom: 14px; }

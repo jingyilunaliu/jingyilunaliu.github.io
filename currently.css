@@ -1,0 +1,58 @@
+/* Homepage reading shelf. All styles are scoped to this section. */
+.currently {
+    --shelf-ink: var(--text-primary);
+    --shelf-muted: var(--text-secondary);
+    margin: 0;
+    padding-top: 30px;
+    border-top: 1px solid var(--border);
+    color: var(--shelf-ink);
+}
+
+.currently-heading-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 1.5rem; }
+.currently h2 { font-family: var(--font-display); font-size: clamp(1.65rem, 3vw, 2rem); font-weight: normal; line-height: 1.2; letter-spacing: -0.035em; }
+.currently h2 em { font-weight: normal; }
+.currently .currently-intro { margin: 10px 0 26px; color: var(--shelf-muted); font-size: 13px; line-height: 1.6; }
+.currently-controls { display: flex; gap: 0.5rem; flex-shrink: 0; }
+.currently-controls[hidden] { display: none; }
+.currently-button { width: 44px; height: 44px; border: 1px solid var(--border); border-radius: 50%; background: transparent; color: var(--shelf-ink); font: 1.25rem var(--font-code); cursor: pointer; transition: background 180ms, border-color 180ms; }
+.currently-button:hover:not([aria-disabled="true"]) { background: var(--background-secondary); border-color: #8e8b7d; }
+.currently-button[aria-disabled="true"] { opacity: 0.3; cursor: default; }
+.currently :focus-visible { outline: 2px solid #8f4f3a; outline-offset: 4px; }
+
+.currently-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 3rem) / 3); gap: 1.5rem; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 5px 0 12px; }
+.currently-track::-webkit-scrollbar { display: none; }
+.currently-card { min-width: 0; scroll-snap-align: start; display: flex; flex-direction: column; }
+.currently-cover { display: block; position: relative; overflow: hidden; aspect-ratio: 6 / 7; background: var(--background-secondary); }
+.currently-cover img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 350ms ease; }
+@media (hover: hover) { .currently-cover:hover img { transform: scale(1.025); } }
+.currently-cover--poster img { object-position: center 60%; }
+.currently .currently-kind { display: flex; justify-content: space-between; gap: 0.4rem; margin: 20px 0 10px; color: var(--shelf-muted); font-family: var(--font-meta); font-size: 10px; letter-spacing: 0.02em; }
+.currently-kind span { font-variant-numeric: tabular-nums; }
+.currently h3 { font: normal 22px/1.25 var(--font-display); letter-spacing: -0.025em; text-wrap: initial; }
+.currently .currently-creator { margin: 8px 0 0; font-size: 12px; color: var(--shelf-muted); }
+.currently blockquote { margin: 1rem 0 0; padding-top: 0.9rem; border-top: 1px solid var(--border); font: italic 1.05rem/1.5 var(--font-display); }
+.currently .currently-note { margin: 1rem 0 0; padding-top: 0.9rem; border-top: 1px solid var(--border); font: normal 1rem/1.8 var(--font-display); }
+.currently .currently-note-label { margin: 10px 0 0; font-size: 11px; color: var(--shelf-muted); }
+.currently .currently-source { align-self: flex-start; margin-top: 10px; font-size: 11px; color: var(--shelf-muted); text-decoration: none; text-underline-offset: 3px; }
+.currently .currently-source:hover { text-decoration: underline; }
+.currently-footer { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; gap: 1rem; font-size: 12px; color: var(--shelf-muted); }
+.currently-footer a { color: var(--shelf-ink); text-decoration: none; text-underline-offset: 4px; }
+.currently-footer a:hover { text-decoration: underline; }
+.currently-footer span span { margin-left: 0.5rem; }
+.currently-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+@media (max-width: 768px) {
+    .currently-track { grid-auto-columns: 44%; gap: 1.25rem; }
+    .currently-heading-row { align-items: flex-end; gap: 0.75rem; }
+    .currently h2 { max-width: 340px; }
+}
+@media (max-width: 480px) {
+    .currently-track { grid-auto-columns: 82%; }
+    .currently h2 { font-size: 1.65rem; }
+    .currently h2 em { display: block; }
+    .currently-controls { gap: 0.35rem; }
+    .currently-button { width: 40px; height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .currently *, .currently *::before, .currently *::after { transition: none; scroll-behavior: auto; }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560">
+  <defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#385565" opacity=".13"/><circle cx="6" cy="7" r=".5" fill="#fff" opacity=".25"/></pattern></defs>
+  <path fill="#d6dfd5" d="M0 0h480v560H0z"/>
+  <path d="M480 185c-119 26-173 76-251 90S59 266 0 329v231h480Z" fill="#94b6bc"/>
+  <path d="M480 253c-91 27-169 35-185 86s-77 28-129 53S51 445 0 439v121h480Z" fill="#638e9c"/>
+  <path d="M480 333c-52 17-77 45-83 80s-91 31-135 76-105 45-134 71h352Z" fill="#426d80"/>
+  <g fill="none" stroke="#edf0dc" stroke-width="2" opacity=".7">
+    <path d="M490 213c-131 18-173 88-259 80S69 290-10 356"/>
+    <path d="M490 234c-124 22-161 80-198 110s-97-2-155 16S34 397-10 395"/>
+    <path d="M490 272c-112 35-154 49-166 97s-100 23-166 61S55 466-10 480"/>
+    <path d="M490 294c-100 29-137 56-144 101s-90 36-145 68S87 510 45 570"/>
+    <path d="M490 386c-45 8-62 42-74 68s-78 15-134 61-59 43-70 55"/>
+    <path d="M490 427c-40 8-52 31-66 53s-70 19-112 54-37 36-37 36"/>
+  </g>
+  <ellipse cx="217" cy="331" rx="45" ry="18" fill="#476a76" opacity=".24"/>
+  <path d="M178 323c-10-20 13-49 38-48s44 28 36 45-61 20-74 3Z" fill="#eee4cd"/>
+  <path d="M184 309c5-19 22-24 37-20" fill="none" stroke="#faf3e2" stroke-width="3"/>
+  <g fill="#345765" font-family="Georgia, serif" font-size="49"><text x="34" y="72">Be Water,</text><text x="34" y="128" font-style="italic">My Friend</text></g>
+  <text x="35" y="165" font-family="monospace" font-size="10" letter-spacing="2" fill="#56717a">THE TEACHINGS OF BRUCE LEE</text>
+  <text x="35" y="527" font-family="monospace" font-size="12" letter-spacing="2" fill="#f1eee0">SHANNON LEE</text>
+  <path fill="url(#grain)" d="M0 0h480v560H0z"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560">
+  <defs><pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#534936" opacity=".12"/><circle cx="7" cy="7" r=".5" fill="#fff" opacity=".3"/></pattern></defs>
+  <path fill="#e4bba3" d="M0 0h480v560H0z"/>
+  <circle cx="390" cy="82" r="112" fill="#f1d6a9"/>
+  <path d="M-90 480 225 160 586 296 270 635Z" fill="#526d5c"/>
+  <g fill="none" stroke="#ede5c9" stroke-width="3"><path d="m-38 462 267-271 306 116-267 271Z"/><path d="m15 482 267-271M214 558l267-271M94 326l307 116M136 283l204 77M30 393l204 77M236 321l-106 107"/></g>
+  <path d="m67 309 334 127v26L67 335Z" fill="#35483e" fill-opacity=".65"/>
+  <path d="m67 309 334 127" fill="none" stroke="#f7ecd2" stroke-width="4"/>
+  <path d="M67 305v46m334 81v47" stroke="#333e31" stroke-width="5"/>
+  <ellipse cx="281" cy="410" rx="39" ry="13" fill="#314b3c" opacity=".35"/>
+  <circle cx="265" cy="385" r="26" fill="#d9dd84"/>
+  <path d="M246 367c25 3 36 15 36 37" fill="none" stroke="#faf3d2" stroke-width="3"/>
+  <g fill="#4c4d3d" font-family="Georgia, serif"><text x="35" y="60" font-size="15" letter-spacing="3">THE INNER GAME</text><text x="34" y="110" font-size="43" font-style="italic">of Tennis</text></g>
+  <text x="35" y="527" font-family="monospace" font-size="12" letter-spacing="2" fill="#f8ebd4">W. TIMOTHY GALLWEY</text>
+  <path fill="url(#grain)" d="M0 0h480v560H0z"/>
+</svg>

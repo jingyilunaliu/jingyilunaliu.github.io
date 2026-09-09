@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560">
+  <defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="5" r=".6" fill="#394e57" opacity=".13"/></pattern></defs>
+  <path fill="#b9cdd0" d="M0 0h480v560H0z"/>
+  <circle cx="359" cy="204" r="51" fill="#f1e6cb"/>
+  <path d="M0 320q101-73 214-8t266-15v263H0Z" fill="#839ca5"/>
+  <path d="M0 391q124-80 260-2t220-21v192H0Z" fill="#627f8a"/>
+  <path d="M0 486q120-57 226-20t254-35v129H0Z" fill="#476571"/>
+  <g fill="none" stroke="#ac5046" stroke-width="5" stroke-linecap="round"><path d="M-20 212c110-10 99 203 214 146s69-130 42-74c-17 36 22 64 74 35s80-29 195-14"/><path d="M-20 214c80 0 143 198 234 151s42-117 18-81c-31 47 30 66 87 45s105-40 186-18"/></g>
+  <g fill="#304f5b" font-family="Georgia, serif" font-size="46"><text x="34" y="67">Never</text><text x="34" y="119" font-style="italic">Let Me Go</text></g>
+  <text x="35" y="527" font-family="monospace" font-size="12" letter-spacing="2" fill="#e9e6d7">KAZUO ISHIGURO</text>
+  <path fill="url(#grain)" d="M0 0h480v560H0z"/>
+</svg>

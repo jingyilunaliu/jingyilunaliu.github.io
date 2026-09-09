@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Handle email click
-    document.querySelector('.social-links a[href^="mailto"]').addEventListener('click', function(e) {
+    document.querySelector('.social-links a[href^="mailto"]')?.addEventListener('click', function(e) {
         e.preventDefault();
         const email = 'jingyilunaliu@hotmail.com';
         
@@ -75,11 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let touchStartX = 0;
     let touchEndX = 0;
 
-    document.querySelector('.photo-gallery').addEventListener('touchstart', e => {
+    document.querySelector('.photo-gallery')?.addEventListener('touchstart', e => {
         touchStartX = e.changedTouches[0].screenX;
     });
 
-    document.querySelector('.photo-gallery').addEventListener('touchend', e => {
+    document.querySelector('.photo-gallery')?.addEventListener('touchend', e => {
         touchEndX = e.changedTouches[0].screenX;
         handleSwipe();
     });

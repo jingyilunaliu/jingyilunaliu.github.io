@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560">
+  <defs><linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0cda3"/><stop offset="1" stop-color="#d68c72"/></linearGradient><clipPath id="window"><path d="M114 438V264a126 126 0 0 1 252 0v174Z"/></clipPath><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#fff0d9" opacity=".12"/></pattern></defs>
+  <path fill="#aa7868" d="M0 0h480v560H0z"/>
+  <path d="M99 450V264a141 141 0 0 1 282 0v186Z" fill="#6e504e"/>
+  <g clip-path="url(#window)"><path fill="url(#sunset)" d="M114 138h252v300H114z"/><circle cx="282" cy="298" r="51" fill="#f7d8a5"/><path d="M100 336q73-52 145-9t140-7v135H100Z" fill="#c18a7a"/><path d="M100 381q89-49 156-9t129-11v96H100Z" fill="#a16f72"/><path d="M100 420q88-17 285-16v46H100Z" fill="#805963"/></g>
+  <path d="M240 139v299m-126-121h252" stroke="#6e504e" stroke-width="9"/>
+  <path d="M95 447h290v15H95Z" fill="#c08e79"/>
+  <path d="M116 463h249l70 97H169Z" fill="#f4c994" opacity=".18"/>
+  <g fill="#fff0d9" font-family="Georgia, serif"><text x="34" y="56" font-size="16" letter-spacing="3">THE REMAINS</text><text x="34" y="107" font-size="44" font-style="italic">of the Day</text></g>
+  <text x="35" y="527" font-family="monospace" font-size="12" letter-spacing="2" fill="#fff0d9">KAZUO ISHIGURO</text>
+  <path fill="url(#grain)" d="M0 0h480v560H0z"/>
+</svg>

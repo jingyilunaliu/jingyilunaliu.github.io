@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560">
+  <defs><pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#735641" opacity=".12"/></pattern></defs>
+  <path fill="#f0dbaf" d="M0 0h480v560H0z"/>
+  <circle cx="309" cy="255" r="69" fill="#d58d50"/>
+  <path d="M0 332q125-55 233-1t247-18v247H0Z" fill="#dec095"/>
+  <path d="M0 435q89-79 212-46t268-11v182H0Z" fill="#bc956f"/>
+  <path d="M87 575c-20-73 236-79 255-140s-185-59-165-92 91-19 117-42c-7 28-64 25-59 43s186 23 161 103-211 81-170 128Z" fill="#fff0d3"/>
+  <path d="M157 570c-15-65 201-89 212-131s-175-69-163-95 75-20 84-40" fill="none" stroke="#b69a75" stroke-width="2" stroke-dasharray="12 15"/>
+  <g fill="#725036" font-family="Georgia, serif" font-size="44"><text x="34" y="66">Runnin’ Down</text><text x="34" y="119" font-style="italic">a Dream</text></g>
+  <text x="35" y="158" font-family="monospace" font-size="11" letter-spacing="2" fill="#886a48">A BOOK ABOUT FINDING YOUR WAY</text>
+  <text x="35" y="527" font-family="monospace" font-size="12" letter-spacing="2" fill="#fff1d8">BILL GURLEY</text>
+  <path fill="url(#grain)" d="M0 0h480v560H0z"/>
+</svg>

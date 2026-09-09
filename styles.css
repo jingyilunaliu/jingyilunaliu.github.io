@@ -57,10 +57,10 @@ nav .logo { display: inline-flex; align-items: center; gap: 0; font: normal 17px
 
 /* Homepage introduction */
 #hero { padding: var(--section-space) 0; }
-.hero-content { max-width: 800px; font-family: var(--font-code); }
+.hero-content { width: 100%; max-width: 960px; margin-inline: auto; font-family: var(--font-code); }
 .current-title { font-family: var(--font-meta); font-size: 11px; line-height: 1.6; letter-spacing: 0.015em; color: var(--text-secondary); margin-bottom: 18px; }
 #hero h1 { font-family: var(--font-code); font-size: 18px; font-weight: normal; line-height: 1.7; letter-spacing: -0.02em; color: var(--text-secondary); margin: 22px 0 32px; }
-.subtitle { max-width: 800px; color: var(--text-secondary); font-size: 18px; line-height: 1.7; letter-spacing: -0.02em; margin-bottom: 0; }
+.subtitle { color: var(--text-secondary); font-size: 18px; line-height: 1.7; letter-spacing: -0.02em; margin-bottom: 0; }
 .subtitle p { margin: 0; }
 .social-links { display: flex; gap: 24px; font-size: 13px; }
 .social-links a { color: var(--accent); text-decoration: none; border-bottom: 1px solid #bdccc1; }

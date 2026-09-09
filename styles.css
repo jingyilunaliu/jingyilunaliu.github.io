@@ -44,7 +44,7 @@ h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); }
 h2 { font-size: clamp(1.65rem, 3vw, 2rem); }
 h3 { font-size: 1.6rem; }
 img { max-width: 100%; }
-.container { width: 100%; max-width: 1600px; margin: 0 auto; padding: 0 clamp(32px, 5vw, 80px) 64px; }
+.container { width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 60px 64px; }
 
 /* Navigation */
 header { padding: 36px 0 28px; }
@@ -61,7 +61,7 @@ nav .logo { display: inline-flex; align-items: center; gap: 0; font: normal 17px
 .current-title { font-family: var(--font-meta); font-size: 13px; line-height: 1.6; letter-spacing: 0.015em; color: var(--text-secondary); margin-bottom: 18px; }
 #hero h1 { font-family: var(--font-code); font-size: 18px; font-weight: normal; line-height: 1.7; letter-spacing: -0.02em; color: var(--text-secondary); margin: 22px 0 32px; }
 .subtitle { color: var(--text-secondary); font-size: 18px; line-height: 1.7; letter-spacing: -0.02em; margin-bottom: 0; }
-.subtitle p { margin: 0; }
+.subtitle p { margin: 0; text-wrap: pretty; }
 .social-links { display: flex; gap: 24px; font-size: 13px; }
 .social-links a { color: var(--accent); text-decoration: none; border-bottom: 1px solid #bdccc1; }
 .social-links a:hover { border-color: var(--accent); }

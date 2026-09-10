@@ -1,0 +1,175 @@
+# Luna Liu
+
+> Text edition of Luna Liu’s public website.
+
+Website: https://jingyilunaliu.xyz/
+
+Human homepage: https://jingyilunaliu.xyz/home.html
+
+Generated from the website’s HTML. Original wording and source links are preserved; dates and reading statuses are as stated on the pages. External articles, including the Notion developer diary, are linked rather than reproduced.
+
+## Contents
+
+- [Luna Liu](https://jingyilunaliu.xyz/home.md)
+- [About - Luna Liu](https://jingyilunaliu.xyz/about.md)
+- [Projects - Luna Liu](https://jingyilunaliu.xyz/projects/index.md)
+- [Writings - Luna Liu](https://jingyilunaliu.xyz/writings/index.md)
+- [Readings - Luna Liu](https://jingyilunaliu.xyz/readings.md)
+
+---
+
+# Luna Liu
+
+Source: https://jingyilunaliu.xyz/home.html
+
+Managing Director｜ZhenFund
+
+Working in an early stage investment firm. Exploring the world of spatial computing, spatial intelligence and AI.
+
+## A curious mind.
+
+[GitHub](https://github.com/jingyilunaliu) [LinkedIn](https://www.linkedin.com/in/jingyi-luna-liu-%E1%AF%85-07219519a/) [Email](mailto:jingyilunaliu@hotmail.com)
+
+### Things I’m *building*
+
+[All projects ↗](https://jingyilunaliu.xyz/projects)
+
+[![Tree Magic visionOS app preview](https://jingyilunaliu.xyz/images/TM1.png)](https://jingyilunaliu.xyz/projects)
+
+#### Tree Magic
+
+visionOS
+
+My first visionOS app. A Christmas tree inspired by the one I bought in London.
+
+[Developer diary](https://jingyiliu.notion.site/My-First-Developer-Diary-Building-Tree-Magic-13f247bd179e80e29372c69d231cc7f8)
+
+### What I’m reading *& watching*
+
+A few pages, a few frames, a few things that stay.
+
+[![Illustrated cover: flowing blue water curving around a smooth river stone](https://jingyilunaliu.xyz/images/currently/be-water-my-friend.svg)](https://www.penguin.co.uk/books/442289/be-water-my-friend-by-shannon-lee/9781846046667)
+
+NOW READING · BOOK 01
+
+#### Be Water, My Friend
+
+Shannon Lee
+
+> “Empty your mind; be formless, shapeless like water.”
+
+Source: https://www.penguin.co.uk/books/442289/be-water-my-friend-by-shannon-lee/9781846046667
+
+[Bruce Lee · Quote source ↗](https://www.penguin.co.uk/books/442289/be-water-my-friend-by-shannon-lee/9781846046667)
+
+[![Official The Drama poster featuring Zendaya and Robert Pattinson in wedding attire](https://jingyilunaliu.xyz/images/currently/the-drama.jpg)](https://a24films.com/films/the-drama)
+
+WATCHED · FILM 02
+
+#### The Drama
+
+Zendaya & Robert Pattinson
+
+一部关于爱情如何穿过想象、秘密和时空，最后抵达真实的婚礼黑色喜剧
+
+My take
+
+[![Illustrated cover: an ivory road winding through golden hills toward a golden sun](https://jingyilunaliu.xyz/images/currently/runnin-down-a-dream.svg?v=5)](https://www.penguinrandomhouse.com/books/769256/runnin-down-a-dream-by-bill-gurley/)
+
+FINISHED · BOOK 03
+
+#### Runnin’ Down a Dream
+
+Bill Gurley
+
+> “Shouldn’t you spend it doing something you love?”
+
+Source: https://www.penguinrandomhouse.com/books/769256/runnin-down-a-dream-by-bill-gurley/
+
+[Publisher’s description ↗](https://www.penguinrandomhouse.com/books/769256/runnin-down-a-dream-by-bill-gurley/)
+
+[![The Remains of the Day by Kazuo Ishiguro — yellow book cover with a silhouetted man](https://jingyilunaliu.xyz/images/currently/remains-of-the-day.png)](https://www.goodreads.com/book/show/28921.The_Remains_of_the_Day)
+
+FINISHED · BOOK 04
+
+#### The Remains of the Day
+
+Kazuo Ishiguro
+
+> “The evening’s the best part of the day.”
+
+Source: https://caa.cankaya.edu.tr/server/api/core/bitstreams/644ec813-c8eb-4f10-b939-1ca481b1770f/content
+
+[Quote source ↗](https://caa.cankaya.edu.tr/server/api/core/bitstreams/644ec813-c8eb-4f10-b939-1ca481b1770f/content)
+
+---
+
+# About - Luna Liu
+
+Source: https://jingyilunaliu.xyz/about.html
+
+![Luna Liu](https://jingyilunaliu.xyz/images/profile.webp)
+
+## About Me
+
+I am Liu Jingyi. I grew up in Hunan and went to study in the UK for high school. I completed my undergraduate degree in Economics at the University of Cambridge, my first master's degree in Economics at University College London, and my second master's degree in Journalism at Columbia University. I now work in an early-stage investment fund called ZhenFund.
+
+Economics taught me to explore patterns of economic development through various tools and methods, while journalism inspired me to uncover the unique experiences of each individual. Now, working with my colleagues in the investment operations team, we leverage both quantitative and qualitative analysis methodologies, combined with AI technologies, to identify and understand the entrepreneurs who are shaping our era.
+
+I am also the mother of a five-year-old child, and I often wonder how his future world will differ from mine, how technology will change his way of life and work, and what role my field will play in shaping that future.
+
+For the world we believe in.
+
+---
+
+# Projects - Luna Liu
+
+Source: https://jingyilunaliu.xyz/projects/index.html
+
+## Projects
+
+![Tree Magic visionOS App](https://jingyilunaliu.xyz/images/TM1.png)
+
+#### Tree Magic
+
+In the first winter following Vision Pro's release, I wanted to build a Christmas tree app—one that would capture the same feeling I had when buying that tree in London.
+
+[Developer Diary](https://jingyiliu.notion.site/My-First-Developer-Diary-Building-Tree-Magic-13f247bd179e80e29372c69d231cc7f8)
+
+---
+
+# Writings - Luna Liu
+
+Source: https://jingyilunaliu.xyz/writings/index.html
+
+## Writings
+
+[My First Developer Diary: Building Tree Magic](https://jingyiliu.notion.site/My-First-Developer-Diary-Building-Tree-Magic-13f247bd179e80e29372c69d231cc7f8)
+
+---
+
+# Readings - Luna Liu
+
+Source: https://jingyilunaliu.xyz/readings.html
+
+## Readings
+
+心态制胜 (The Inner Game of Tennis)
+
+W. Timothy Gallwey
+
+The Infinity Machine
+
+Sebastian Mallaby
+
+Runnin' Down a Dream
+
+Bill Gurley
+
+莫失莫忘 (Never Let Me Go)
+
+Kazuo Ishiguro
+
+昨日将尽 (The Remains of the Day)
+
+Kazuo Ishiguro

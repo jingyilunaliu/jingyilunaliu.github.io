@@ -15,9 +15,9 @@
 .currently-controls { position: absolute; right: 0; top: 50%; transform: translateY(-50%); display: flex; gap: 0.5rem; }
 .currently-controls[hidden] { display: none; }
 .currently-button { width: 44px; height: 44px; border: 1px solid var(--border); border-radius: 50%; background: transparent; color: var(--shelf-ink); font: 1.25rem var(--font-code); cursor: pointer; transition: background 180ms, border-color 180ms; }
-.currently-button:hover:not([aria-disabled="true"]) { background: var(--background-secondary); border-color: #8e8b7d; }
+.currently-button:hover:not([aria-disabled="true"]) { background: var(--background-secondary); border-color: var(--accent-line); }
 .currently-button[aria-disabled="true"] { opacity: 0.3; cursor: default; }
-.currently :focus-visible { outline: 2px solid #8f4f3a; outline-offset: 4px; }
+.currently :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
 .currently-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 3rem) / 3); gap: 1.5rem; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 5px 0 12px; }
 .currently-track::-webkit-scrollbar { display: none; }

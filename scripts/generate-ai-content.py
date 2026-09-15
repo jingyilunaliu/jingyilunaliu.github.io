@@ -70,7 +70,7 @@ def render(node, page_url):
     classes = set(attrs.get('class', '').split())
     if tag in SKIP or 'hidden' in attrs or attrs.get('aria-hidden') == 'true':
         return ''
-    if classes & {'currently-footer', 'currently-sr-only', 'currently-controls', 'section-doodle'}:
+    if classes & {'currently-footer', 'currently-sr-only', 'currently-controls', 'section-doodle', 'article-back', 'article-skip'}:
         return ''
     text = ''.join(render(c, page_url) for c in node.children).strip()
     if tag == 'img':
@@ -133,7 +133,7 @@ def generate():
         f'Human homepage: {urljoin(origin, "home.html")}\n\n'
         'Generated from the website’s HTML. Original wording and source links are preserved; '
         'dates and reading statuses are as stated on the pages. '
-        'External articles, including the Notion developer diary, are linked rather than reproduced.\n\n'
+        'External articles are linked rather than reproduced.\n\n'
     )
     outputs['llms.txt'] = intro + '## Full text\n\n' + f'- [Entire website]({origin}llms-full.txt): All local content pages in one Markdown document.\n\n' + '## Pages\n\n' + '\n'.join(entries) + '\n'
     outputs['llms-full.txt'] = intro + '## Contents\n\n' + '\n'.join(entries) + '\n\n---\n\n' + '\n---\n\n'.join(sections)

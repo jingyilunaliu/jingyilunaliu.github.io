@@ -22,7 +22,7 @@ visionOS
 
 My first visionOS app. A Christmas tree inspired by the one I bought in London.
 
-[Developer diary](https://jingyiliu.notion.site/My-First-Developer-Diary-Building-Tree-Magic-13f247bd179e80e29372c69d231cc7f8)
+[Developer diary](https://jingyilunaliu.xyz/writings/tree-magic/)
 
 ### What I’m reading *& watching*
 

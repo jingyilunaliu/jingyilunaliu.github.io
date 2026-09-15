@@ -47,6 +47,13 @@ A modern, responsive personal portfolio website showcasing my professional journ
 - The homepage uses whitespace and static line illustrations (an open book and a sprout) between sections. A crescent sits beside the name in the shared navigation. Interior pages share the same navigation and type hierarchy. The cat animation and prototype controls are not included.
 - `Runnin’ Down a Dream` uses a honey-gold/yellow palette. `Be Water, My Friend` retains its blue illustrated cover; `The Remains of the Day` uses the supplied book jacket.
 
+### Native writings
+- The writings index is `writings/index.html`. Each article lives in its own folder with an `index.html`; Tree Magic is served at `/writings/tree-magic/`.
+- Edit the article directly in `writings/tree-magic/index.html`. It uses the shared `styles.css` and isolated long-form styles in `writings/article.css`, with no build step or JavaScript dependency.
+- Tree Magic's text was migrated from the [original Notion diary](https://jingyiliu.notion.site/My-First-Developer-Diary-Building-Tree-Magic-13f247bd179e80e29372c69d231cc7f8), verified on September 15, 2026. The full text and five existing local images are retained; the duplicated “and and” was corrected, the team credit is an image caption, and em dashes were replaced with commas at the author’s request. No publication date has been inferred.
+- To add another article, copy the article page, update its title, description, canonical URL and Open Graph metadata, then add a link in `writings/index.html`. Keep local image paths, descriptive alt text, and image dimensions together.
+- Preview through a local HTTP server at the repository root (for example, `python3 -m http.server 8000`) so site-root links work, then open `http://localhost:8000/writings/tree-magic/`.
+
 ## Technologies
 - HTML5
 - CSS3

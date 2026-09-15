@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="From a Christmas tree in London to a spatial Christmas tree on Vision Pro: Luna Liu's first developer diary, building Tree Magic with friends.">
+    <meta name="author" content="Luna Liu">
+    <link rel="canonical" href="https://jingyilunaliu.xyz/writings/tree-magic/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="My First Developer Diary: Building Tree Magic">
+    <meta property="og:description" content="From a Christmas tree in London to a spatial Christmas tree on Vision Pro: building Tree Magic with friends.">
+    <meta property="og:url" content="https://jingyilunaliu.xyz/writings/tree-magic/">
+    <meta property="og:image" content="https://jingyilunaliu.xyz/writings/images/TM1.png">
+    <meta property="og:image:alt" content="Tree Magic on the Vision App Store">
+    <title>My First Developer Diary: Building Tree Magic - Luna Liu</title>
+    <link rel="stylesheet" href="/styles.css?v=30">
+    <link rel="stylesheet" href="/writings/article.css?v=1">
+    <link rel="alternate" type="text/markdown" href="/writings/tree-magic/index.md">
+    <link rel="describedby" href="/llms.txt">
+</head>
+<body>
+    <a class="article-skip" href="#article">Skip to article</a>
+    <div class="container">
+        <header>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="/home.html" class="logo">Luna Liu <svg class="luna-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3C20 5 20 19 8 21C15.5 16 15.5 8 8 3Z"/></svg></a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/writings" aria-current="location">Writings</a></li>
+                    <li><a href="/readings.html">Readings</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="article-page" id="article" tabindex="-1">
+            <a class="article-back" href="/writings/">← All writings</a>
+            <article aria-labelledby="article-title">
+                <header class="article-header">
+                    <p class="article-kicker">Developer diary · visionOS</p>
+                    <h1 id="article-title">My First Developer Diary: Building Tree Magic</h1>
+                    <p class="article-byline">Luna Liu</p>
+                </header>
+
+                <div class="article-body">
+                    <figure>
+                        <a href="/writings/images/TM1.png" aria-label="View Tree Magic on the Vision App Store image at full size">
+                            <img src="/writings/images/TM1.png" width="2070" height="1796" alt="Tree Magic on the Vision App Store" fetchpriority="high">
+                        </a>
+                        <figcaption>Tree Magic on the Vision App Store</figcaption>
+                    </figure>
+                    <p>During my year in London, my roommate Meichun always wanted a Christmas tree. Though I hesitated at first about getting a tree for our one-year rental, her enthusiasm was contagious. I ended up buying a tree my height from Westfield to surprise her.</p>
+                    <figure>
+                        <a href="/writings/images/TM2.jpeg" aria-label="View the Christmas tree photo at full size">
+                            <img src="/writings/images/TM2.jpeg" width="1080" height="1080" alt="A Christmas tree beside the dining table in our London home, with a playful mushroom doodle over its top" loading="lazy" decoding="async">
+                        </a>
+                    </figure>
+                    <p>After returning to China, I wanted to celebrate Christmas properly and bought a large Christmas tree for my living room, but as living space became increasingly limited, I had no choice but to pack up the tree and send it back to Suzhou.</p>
+                    <p>After Vision Pro's release, many things I dreamed of owning no longer needed to exist in physical form. With the headset’s powerful display capabilities, 3D models can seamlessly coexist with real objects, forming a new world for us to live in.</p>
+                    <p>In the first winter following Vision Pro's release, I wanted to build a Christmas tree app, one that would capture the same feeling I had when buying that tree in London.</p>
+                    <p>Luckily, three developer friends also wanted to experiment with visionOS, so the four of us decided to build the tree together.</p>
+                    <p>Just as I often lounge on the couch with Taylor Swift playing, choosing the nighttime Bora Bora visionOS background and spending 20 minutes watching palm trees sway in the breeze, Vision Pro brings the island vacation experience within reach. Our motivation for creating Tree Magic is to give everyone who wants a Christmas tree but is limited by space or storage concerns their very own tree, along with the joy of choosing colors, toppers and ornaments.</p>
+                    <figure>
+                        <a href="/writings/images/TM3.jpeg" aria-label="View the Tree Magic team photo at full size">
+                            <img src="/writings/images/TM3.jpeg" width="1080" height="810" alt="The four Tree Magic teammates gathered around a table with their laptops" loading="lazy" decoding="async">
+                        </a>
+                        <figcaption>Tree Magic Team: Weidi Tang, Min Pan, Yuchen Wang, Luna Liu</figcaption>
+                    </figure>
+                    <p>With all of us working full-time jobs, we had limited time to build the tree, dedicating only one week to serious development. While our lead developer Weidi could work on it all day during her company's Christmas break, the rest of us could only start after 9 PM every day. Though we hoped to finish before midnight, we kept getting stuck on basic challenges, the tree wouldn't follow gestures or its top would get cut off, often working until 2 or 3 AM. This "hobby project" proved far more challenging than expected.</p>
+                    <p>Despite our complaints during development, something special happened each time Yuchen and I put on the Vision Pro to test the demo. When the work-in-progress tree appeared in my living room, whether placed on the table or in an open space, I felt like I truly owned a Christmas tree. Even after removing the headset, that feeling lingered. As Weidi and Min worked to enhance the tree's appearance, I found myself energized to continue building for another hour.</p>
+                    <figure>
+                        <a href="/writings/images/TM4.jpeg" aria-label="View the spatial Christmas tree image at full size">
+                            <img src="/writings/images/TM4.jpeg" width="1080" height="608" alt="A virtual Christmas tree with lights and ornaments placed beside a bed in mixed reality" loading="lazy" decoding="async">
+                        </a>
+                        <figcaption>Our spatial Christmas tree in a mixed reality environment</figcaption>
+                    </figure>
+                    <h2>🪄 Developer's New Year Wishes</h2>
+                    <ol>
+                        <li>More high-quality 3D model resources and 3D model creation/editing tools. When looking for a tree model this year, we felt there weren't many suitable model options, and considering the polygon count issue (the tree we finally picked seems to cause lag when opening the app due to too many polygons), there were even fewer choices. Quality 3D assets are essential for creating visionOS spatial applications. Recommendations on good 3D assets and 3D model creation/editing tools are much appreciated.</li>
+                        <li>anchoring API in shared space</li>
+                        <li>a coding copilot integrated into Xcode that uses natural language to guide me through debugging step-by-step and assist with troubleshooting (similar to Windsurf)</li>
+                        <li>It seems we've hit the model height limit, where models over 1 meter get their tops cut off, which meant we couldn't make a super-large version of the tree. Is there any good solution for this?</li>
+                    </ol>
+                    <p>I welcome users, developers, founders, builders and researchers to reach out at <a href="mailto:jingyilunaliu@hotmail.com">jingyilunaliu@hotmail.com</a> to discuss XR and spatial computing ideas, products, and technologies!</p>
+                    <p>We wish you a merry Christmas,</p>
+                    <p>Luna</p>
+                    <p class="article-signature"><em>working in an early-stage investment firm, a curious mind</em></p>
+                    <p><a href="/">jingyilunaliu.xyz</a></p>
+                    <figure>
+                        <a href="/writings/images/TM5.jpeg" aria-label="View Tree Magic by the lake at full size">
+                            <img src="/writings/images/TM5.jpeg" width="1080" height="608" alt="A glowing Christmas tree in a misty lakeside visionOS environment" loading="lazy" decoding="async">
+                        </a>
+                    </figure>
+                </div>
+                <footer class="article-footer">
+                    <a class="article-back" href="/writings/">← All writings</a>
+                </footer>
+            </article>
+        </main>
+    </div>
+</body>
+</html>

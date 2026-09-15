@@ -6,7 +6,7 @@ Website: https://jingyilunaliu.xyz/
 
 Human homepage: https://jingyilunaliu.xyz/home.html
 
-Generated from the website’s HTML. Original wording and source links are preserved; dates and reading statuses are as stated on the pages. External articles, including the Notion developer diary, are linked rather than reproduced.
+Generated from the website’s HTML. Original wording and source links are preserved; dates and reading statuses are as stated on the pages. External articles are linked rather than reproduced.
 
 ## Full text
 
@@ -19,3 +19,4 @@ Generated from the website’s HTML. Original wording and source links are prese
 - [Projects - Luna Liu](https://jingyilunaliu.xyz/projects/index.md)
 - [Writings - Luna Liu](https://jingyilunaliu.xyz/writings/index.md)
 - [Readings - Luna Liu](https://jingyilunaliu.xyz/readings.md)
+- [My First Developer Diary: Building Tree Magic - Luna Liu](https://jingyilunaliu.xyz/writings/tree-magic/index.md)

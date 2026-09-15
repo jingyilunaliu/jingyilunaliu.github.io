@@ -2,17 +2,17 @@
 .article-page {
     padding-top: var(--section-space);
 }
-.article-back { font-size: 13px; text-decoration: none; }
+.article-back { font-size: 14px; text-decoration: none; }
 .article-back:hover { text-decoration: underline; }
 .article-header { padding: 32px 0 0; }
 .article-kicker, .article-byline {
     color: var(--text-secondary);
-    font-size: 13px;
+    font-size: 14px;
 }
 .article-kicker { margin-bottom: 16px; }
 .article-header h1 { margin-bottom: 22px; }
 .article-byline { margin-bottom: 0; }
-.article-body { margin-top: 36px; overflow-wrap: anywhere; }
+.article-body { font-size: 20px; margin-top: 36px; overflow-wrap: anywhere; }
 .article-body p, .article-body li { line-height: 1.85; }
 .article-body p { margin-bottom: 24px; }
 .article-body h2 { margin: 48px 0 24px; }
@@ -22,7 +22,7 @@
 .article-body figcaption {
     margin-top: 12px;
     color: var(--text-secondary);
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.7;
     text-align: center;
 }
@@ -35,6 +35,6 @@ nav a[aria-current='location'] { color: var(--text-primary); text-decoration: un
 .article-skip:focus { top: 12px; }
 @media (max-width: 540px) {
     .article-header { padding-top: 24px; }
-    .article-body { font-size: 15px; margin-top: 28px; }
+    .article-body { font-size: 17px; margin-top: 28px; }
     .article-body figure { margin-block: 28px; }
 }

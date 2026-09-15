@@ -1,7 +1,5 @@
 /* Native articles reuse the site's palette, fonts and navigation. */
 .article-page {
-    max-width: 740px;
-    margin-inline: auto;
     padding-top: var(--section-space);
 }
 .article-back { font-size: 13px; text-decoration: none; }

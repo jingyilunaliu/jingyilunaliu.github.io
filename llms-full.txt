@@ -15,6 +15,7 @@ Generated from the website’s HTML. Original wording and source links are prese
 - [Projects - Luna Liu](https://jingyilunaliu.xyz/projects/index.md)
 - [Writings - Luna Liu](https://jingyilunaliu.xyz/writings/index.md)
 - [Readings - Luna Liu](https://jingyilunaliu.xyz/readings.md)
+- [Tree Magic - Luna Liu](https://jingyilunaliu.xyz/projects/tree-magic/index.md)
 - [My First Developer Diary: Building Tree Magic - Luna Liu](https://jingyilunaliu.xyz/writings/tree-magic/index.md)
 - [Building the ZhenFund Reading Club Website - Luna Liu](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/index.md)
 
@@ -46,9 +47,9 @@ Explore what we’re reading at ZhenFund, share your thoughts, and recommend a b
 
 [Visit website ↗](https://reading.zhenfund.com/) [How I built it →](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
 
-[![A decorated Tree Magic Christmas tree placed in a room with Apple Vision Pro](https://jingyilunaliu.xyz/writings/images/TM4.jpeg)](https://apps.apple.com/us/app/tree-magic/id6739640347)
+[![A decorated Tree Magic Christmas tree placed in a room with Apple Vision Pro](https://jingyilunaliu.xyz/writings/images/TM4.jpeg)](https://jingyilunaliu.xyz/projects/tree-magic/)
 
-#### [Tree Magic](https://apps.apple.com/us/app/tree-magic/id6739640347)
+#### [Tree Magic](https://jingyilunaliu.xyz/projects/tree-magic/)
 
 visionOS
 
@@ -148,9 +149,9 @@ Explore what we’re reading at ZhenFund, share your thoughts, and recommend a b
 
 [Visit website ↗](https://reading.zhenfund.com/) [How I built it →](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
 
-[![A decorated Tree Magic Christmas tree placed in a room with Apple Vision Pro](https://jingyilunaliu.xyz/writings/images/TM4.jpeg)](https://apps.apple.com/us/app/tree-magic/id6739640347)
+[![A decorated Tree Magic Christmas tree placed in a room with Apple Vision Pro](https://jingyilunaliu.xyz/writings/images/TM4.jpeg)](https://jingyilunaliu.xyz/projects/tree-magic/)
 
-#### [Tree Magic](https://apps.apple.com/us/app/tree-magic/id6739640347)
+#### [Tree Magic](https://jingyilunaliu.xyz/projects/tree-magic/)
 
 Decorate a Christmas tree and place it in your space with Apple Vision Pro.
 
@@ -193,6 +194,38 @@ Kazuo Ishiguro
 昨日将尽 (The Remains of the Day)
 
 Kazuo Ishiguro
+
+---
+
+# Tree Magic - Luna Liu
+
+Source: https://jingyilunaliu.xyz/projects/tree-magic/index.html
+
+[Skip to project](https://jingyilunaliu.xyz/projects/tree-magic/index.html#project)
+
+[← All projects](https://jingyilunaliu.xyz/projects/)
+
+Made for Apple Vision Pro
+
+## Tree Magic
+
+A Christmas tree for your space.
+
+Choose colors, toppers and ornaments, and make the tree your own. Bring a little Christmas into your room, with no storage space needed.
+
+[View on App Store ↗](https://apps.apple.com/us/app/tree-magic/id6739640347) [How we built it →](https://jingyilunaliu.xyz/writings/tree-magic/)
+
+![A virtual Christmas tree with lights and ornaments placed beside a bed in mixed reality](https://jingyilunaliu.xyz/writings/images/TM4.jpeg)
+
+A little Christmas, right where you are.
+
+![A glowing Christmas tree in a misty lakeside visionOS environment](https://jingyilunaliu.xyz/writings/images/TM5.jpeg)
+
+Or somewhere a little quieter.
+
+Built with Weidi Tang, Min Pan and Yuchen Wang.
+
+[Read the story behind Tree Magic →](https://jingyilunaliu.xyz/writings/tree-magic/)
 
 ---
 

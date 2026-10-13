@@ -1,0 +1,9 @@
+/* Each illustration belongs to the section it describes. */
+.bookshelf-detail { display: block; }
+.cat-section-heading { margin: 48px 0 24px; }
+.article-body .cat-section-heading h2 { margin: 8px 0 0; }
+.article-body .reading-cat { width: 72px; height: 96px; object-fit: contain; }
+@media (max-width: 540px) {
+    .bookshelf-detail { overflow-x: auto; scrollbar-width: thin; scrollbar-color: #b5b6a9 transparent; }
+    .article-body .bookshelf-detail img { width: 760px; max-width: none; }
+}

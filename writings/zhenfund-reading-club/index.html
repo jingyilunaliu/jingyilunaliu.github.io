@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="From an internal reading-list PDF to a shared bookshelf: building the ZhenFund Reading Club website, with AI and a walking cat.">
+    <meta name="author" content="Luna Liu">
+    <link rel="canonical" href="https://jingyilunaliu.xyz/writings/zhenfund-reading-club/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Building the ZhenFund Reading Club">
+    <meta property="og:description" content="A reading list, a bookshelf, and a walking cat. A developer diary by Luna Liu.">
+    <meta property="og:url" content="https://jingyilunaliu.xyz/writings/zhenfund-reading-club/">
+    <meta property="og:image" content="https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg">
+    <meta property="og:image:alt" content="The ZhenFund Reading Club bookshelf">
+    <title>Building the ZhenFund Reading Club - Luna Liu</title>
+    <link rel="stylesheet" href="/styles.css?v=31">
+    <link rel="stylesheet" href="/writings/article.css?v=3">
+    <link rel="stylesheet" href="reading-club.css?v=2">
+    <link rel="alternate" type="text/markdown" href="/writings/zhenfund-reading-club/index.md">
+    <link rel="describedby" href="/llms.txt">
+</head>
+<body>
+    <a class="article-skip" href="#article">Skip to article</a>
+    <div class="container">
+        <header>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="/home.html" class="logo">Luna Liu <svg class="luna-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3C20 5 20 19 8 21C15.5 16 15.5 8 8 3Z"/></svg></a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/writings" aria-current="location">Writings</a></li>
+                    <li><a href="/readings.html">Readings</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main class="article-page" id="article" tabindex="-1">
+            <a class="article-back" href="/writings/">← All writings</a>
+            <article aria-labelledby="article-title">
+                <header class="article-header">
+                    <p class="article-kicker">Developer diary · Web</p>
+                    <h1 id="article-title">Building the ZhenFund Reading Club</h1>
+                    <p class="article-byline">Luna Liu</p>
+                </header>
+                <div class="article-body">
+                    <p>At ZhenFund, each new cohort of our intern program receives a PDF of suggested reading. The books come from recommendations by our full-time team, and colleagues have kept updating the list over the years.</p>
+                    <p>With each cohort, we also hold a reading session. Sometimes we read the same book together. Other times, everyone shares a book they have recently enjoyed.</p>
+                    <p>I liked this tradition and wanted to make it more interactive. I also wanted to open it up to people outside the team who might be curious about what we were reading.</p>
+                    <p>That was the idea behind the <a href="https://reading.zhenfund.com/">ZhenFund Reading Club</a> website.</p>
+
+                    <h2>From a PDF to a Bookshelf</h2>
+                    <p>I browsed quite a few reading clubs and book-list websites before settling on a simple style, with a slightly playful, coding-inspired typeface.</p>
+                    <p>The first version was just a list. It worked, but I wanted the pleasure of browsing actual books, letting a cover catch your attention before choosing one.</p>
+                    <p>So I added a bookshelf view, where you can scroll sideways through the covers. The list view stayed, too. Sometimes you want to browse the covers; sometimes you just want to scan a list.</p>
+
+                    <figure class="reading-bookshelf">
+                        <a class="bookshelf-detail" href="images/bookshelf.jpg" aria-label="View the bookshelf screenshot at full size"><img src="images/bookshelf.jpg" width="1032" height="399" alt="The website’s bookshelf view: book covers in a horizontal row, with a Shelf and List switch above" loading="lazy"></a>
+                        <figcaption>The bookshelf view on <a href="https://reading.zhenfund.com/">reading.zhenfund.com</a>.</figcaption>
+                    </figure>
+
+                    <h2>Building in One Conversation</h2>
+                    <p>More recently, most of the iteration has happened in Codex.</p>
+                    <p>Earlier, I often had to act as the go-between: ask a model for a change, copy its code into the right file on GitHub, publish it, check the website, and repeat.</p>
+                    <p>Now I can describe an idea, see a preview, ask for adjustments, and have Codex push the updated version once I am happy with it, all within the same conversation.</p>
+                    <p>There is much less moving between tabs and apps. When you are making lots of small changes, that makes a real difference. Trying one more idea feels easier.</p>
+
+                    <div class="cat-section-heading">
+                        <img class="reading-cat" src="images/cat.png" width="108" height="144" alt="The original line-drawn cat from the reading website" loading="lazy">
+                        <h2>And Then There Was the Cat</h2>
+                    </div>
+                    <p>I also wanted a cat. Books and cats feel like a natural combination to me.</p>
+                    <p>I imagined a little line-drawn cat walking across the page and wandering back. At first, I asked Claude to draw and animate it. The results were quite painful to look at.</p>
+                    <p>I asked friends for advice, including AI creator <a href="https://www.hyacinth.im/">Hyacinth</a>. I generated an image of the cat with GPT, animated it in Kling, and added it to the website.</p>
+                    <p>Finally, a walking cat.</p>
+
+                    <h2>Making the Idea Clearer</h2>
+                    <p>As the models get better, I find myself spending more time figuring out what I want to build, and what I want it to feel like. That makes it all the more important to articulate what’s in my head: the goal, the details I care about, and what a good result looks like.</p>
+                    <p>For now, our reading list has a home beyond the PDF. You can browse the shelves, read people’s thoughts, or leave us a book recommendation.</p>
+                    <p><a href="https://reading.zhenfund.com/">Come have a look.</a></p>
+                    <p class="article-signature">Luna</p>
+                </div>
+                <footer class="article-footer">
+                    <a class="article-back" href="/writings/">← All writings</a>
+                </footer>
+            </article>
+        </main>
+    </div>
+</body>
+</html>

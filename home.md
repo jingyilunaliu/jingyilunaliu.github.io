@@ -14,6 +14,16 @@ Working in an early stage investment firm. Exploring the world of spatial comput
 
 [All projects ↗](https://jingyilunaliu.xyz/projects)
 
+[![The ZhenFund Reading Club bookshelf](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
+
+#### ZhenFund Reading Club
+
+Web
+
+From our team’s reading-list PDF to a shared bookshelf, with a walking cat.
+
+[Developer diary](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
+
 [![Tree Magic visionOS app preview](https://jingyilunaliu.xyz/images/TM1.png)](https://jingyilunaliu.xyz/projects)
 
 #### Tree Magic

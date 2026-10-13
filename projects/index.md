@@ -12,10 +12,10 @@ Explore what we’re reading at ZhenFund, share your thoughts, and recommend a b
 
 [Visit website ↗](https://reading.zhenfund.com/) [How I built it →](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
 
-[![A decorated Tree Magic Christmas tree placed in a room with Apple Vision Pro](https://jingyilunaliu.xyz/writings/images/TM4.jpeg)](https://jingyilunaliu.xyz/writings/images/TM4.jpeg)
+[![A decorated Tree Magic Christmas tree placed in a room with Apple Vision Pro](https://jingyilunaliu.xyz/writings/images/TM4.jpeg)](https://apps.apple.com/us/app/tree-magic/id6739640347)
 
-#### Tree Magic
+#### [Tree Magic](https://apps.apple.com/us/app/tree-magic/id6739640347)
 
 Decorate a Christmas tree and place it in your space with Apple Vision Pro.
 
-[View app preview ↗](https://jingyilunaliu.xyz/writings/images/TM4.jpeg) [How we built it →](https://jingyilunaliu.xyz/writings/tree-magic/)
+[View on App Store ↗](https://apps.apple.com/us/app/tree-magic/id6739640347) [How we built it →](https://jingyilunaliu.xyz/writings/tree-magic/)

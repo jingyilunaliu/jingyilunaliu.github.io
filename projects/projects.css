@@ -1,0 +1,9 @@
+/* Works lead to the product; their stories are secondary. */
+.featured-project-grid + .featured-project-grid { margin-top: 48px; }
+.featured-project-copy h3 a { color: inherit; text-decoration: none; }
+.featured-project-copy h3 a:hover, .project-content h3 a:hover { color: var(--accent); }
+.project-actions { display: flex; flex-wrap: wrap; align-items: baseline; gap: 14px 24px; }
+.project-actions a { font-size: 14px; line-height: 1.7; text-decoration: none; padding-block: 4px; }
+.project-action-primary { color: var(--accent); border-bottom: 1px solid var(--accent-line); }
+.project-action-story { color: var(--text-secondary); }
+.project-actions a:hover { color: var(--text-primary); text-decoration: underline; }

@@ -14,13 +14,13 @@ Working in an early stage investment firm. Exploring the world of spatial comput
 
 [All projects ↗](https://jingyilunaliu.xyz/projects)
 
-[![The ZhenFund Reading Club bookshelf](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
+[![The ZhenFund Reading Club bookshelf](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf-hd.webp)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
 
 #### ZhenFund Reading Club
 
 Web
 
-From our team’s reading-list PDF to a shared bookshelf, with a walking cat.
+From ZhenFund’s reading-list PDF to a shared bookshelf, with a walking cat.
 
 [Developer diary](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
 

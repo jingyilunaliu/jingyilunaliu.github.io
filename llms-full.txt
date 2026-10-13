@@ -16,7 +16,7 @@ Generated from the website’s HTML. Original wording and source links are prese
 - [Writings - Luna Liu](https://jingyilunaliu.xyz/writings/index.md)
 - [Readings - Luna Liu](https://jingyilunaliu.xyz/readings.md)
 - [My First Developer Diary: Building Tree Magic - Luna Liu](https://jingyilunaliu.xyz/writings/tree-magic/index.md)
-- [Building the ZhenFund Reading Club - Luna Liu](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/index.md)
+- [Building the ZhenFund Reading Club Website - Luna Liu](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/index.md)
 
 ---
 
@@ -36,13 +36,13 @@ Working in an early stage investment firm. Exploring the world of spatial comput
 
 [All projects ↗](https://jingyilunaliu.xyz/projects)
 
-[![The ZhenFund Reading Club bookshelf](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
+[![The ZhenFund Reading Club bookshelf](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf-hd.webp)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
 
 #### ZhenFund Reading Club
 
 Web
 
-From our team’s reading-list PDF to a shared bookshelf, with a walking cat.
+From ZhenFund’s reading-list PDF to a shared bookshelf, with a walking cat.
 
 [Developer diary](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
 
@@ -140,11 +140,11 @@ Source: https://jingyilunaliu.xyz/projects/index.html
 
 ## Projects
 
-[![The ZhenFund Reading Club bookshelf](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
+[![The ZhenFund Reading Club bookshelf](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf-hd.webp)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
 
 #### ZhenFund Reading Club
 
-From our team’s reading-list PDF to a shared bookshelf, with a walking cat.
+From ZhenFund’s reading-list PDF to a shared bookshelf, with a walking cat.
 
 [Developer Diary](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/) [Visit website ↗](https://reading.zhenfund.com/)
 
@@ -164,7 +164,7 @@ Source: https://jingyilunaliu.xyz/writings/index.html
 
 ## Writings
 
-[Building the ZhenFund Reading Club](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/) [My First Developer Diary: Building Tree Magic](https://jingyilunaliu.xyz/writings/tree-magic/)
+[Building the ZhenFund Reading Club Website](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/) [My First Developer Diary: Building Tree Magic](https://jingyilunaliu.xyz/writings/tree-magic/)
 
 ---
 
@@ -254,7 +254,7 @@ Luna
 
 ---
 
-# Building the ZhenFund Reading Club - Luna Liu
+# Building the ZhenFund Reading Club Website - Luna Liu
 
 Source: https://jingyilunaliu.xyz/writings/zhenfund-reading-club/index.html
 
@@ -274,7 +274,7 @@ The first version was just a list. It worked, but I wanted the pleasure of brows
 
 So I added a bookshelf view, where you can scroll sideways through the covers. The list view stayed, too. Sometimes you want to browse the covers; sometimes you just want to scan a list.
 
-[![The website’s bookshelf view: book covers in a horizontal row, with a Shelf and List switch above](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg)
+[![The website’s bookshelf view: book covers in a horizontal row, with a Shelf and List switch above](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf-hd.webp)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf-hd.webp)
 
 The bookshelf view on [reading.zhenfund.com](https://reading.zhenfund.com/).
 

@@ -20,4 +20,4 @@ Generated from the website’s HTML. Original wording and source links are prese
 - [Writings - Luna Liu](https://jingyilunaliu.xyz/writings/index.md)
 - [Readings - Luna Liu](https://jingyilunaliu.xyz/readings.md)
 - [My First Developer Diary: Building Tree Magic - Luna Liu](https://jingyilunaliu.xyz/writings/tree-magic/index.md)
-- [Building the ZhenFund Reading Club - Luna Liu](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/index.md)
+- [Building the ZhenFund Reading Club Website - Luna Liu](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/index.md)

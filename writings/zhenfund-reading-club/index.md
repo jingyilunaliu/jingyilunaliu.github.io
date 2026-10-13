@@ -1,4 +1,4 @@
-# Building the ZhenFund Reading Club - Luna Liu
+# Building the ZhenFund Reading Club Website - Luna Liu
 
 Source: https://jingyilunaliu.xyz/writings/zhenfund-reading-club/index.html
 
@@ -18,7 +18,7 @@ The first version was just a list. It worked, but I wanted the pleasure of brows
 
 So I added a bookshelf view, where you can scroll sideways through the covers. The list view stayed, too. Sometimes you want to browse the covers; sometimes you just want to scan a list.
 
-[![The website’s bookshelf view: book covers in a horizontal row, with a Shelf and List switch above](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg)
+[![The website’s bookshelf view: book covers in a horizontal row, with a Shelf and List switch above](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf-hd.webp)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf-hd.webp)
 
 The bookshelf view on [reading.zhenfund.com](https://reading.zhenfund.com/).
 

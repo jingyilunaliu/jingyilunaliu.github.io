@@ -4,11 +4,11 @@ Source: https://jingyilunaliu.xyz/projects/index.html
 
 ## Projects
 
-[![The ZhenFund Reading Club bookshelf](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf.jpg)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
+[![The ZhenFund Reading Club bookshelf](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/images/bookshelf-hd.webp)](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/)
 
 #### ZhenFund Reading Club
 
-From our team’s reading-list PDF to a shared bookshelf, with a walking cat.
+From ZhenFund’s reading-list PDF to a shared bookshelf, with a walking cat.
 
 [Developer Diary](https://jingyilunaliu.xyz/writings/zhenfund-reading-club/) [Visit website ↗](https://reading.zhenfund.com/)
 

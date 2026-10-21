@@ -4,19 +4,30 @@
     .motion-enter { animation: home-enter 800ms cubic-bezier(.2, .7, .2, 1) both; }
     .section-doodle.motion-drawing path {
         stroke-dasharray: 1;
-        animation: home-draw 1500ms ease-in-out both;
+        animation: home-draw 2800ms ease-in-out both;
         animation-delay: var(--draw-delay, 0ms);
+    }
+    /* Reveal the existing book illustration outward from its spine. */
+    .currently .section-doodle.motion-drawing path {
+        animation: none;
+        stroke-dasharray: none;
+    }
+    .currently .section-doodle.motion-drawing svg {
+        animation: book-unfold 2800ms cubic-bezier(.3, .1, .25, 1) both;
+    }
+    .featured-project .gallery-item img.motion-image-reveal {
+        animation: project-image-arrive 2200ms ease-in-out;
     }
     .currently-cover.motion-bounce {
         transform-origin: 50% 75%;
         animation: cover-bounce 620ms ease-out;
     }
-    .featured-project .gallery-item img { transition: transform 450ms cubic-bezier(.2, .7, .2, 1); }
-    .featured-project .gallery-item a:focus-visible img { transform: scale(1.025); }
+    .featured-project .gallery-item img { transition: transform 650ms cubic-bezier(.2, .7, .2, 1); }
+    .featured-project .gallery-item a:focus-visible img { transform: scale(1.06); }
     .logo .luna-moon { transition: transform 450ms ease; }
     .logo:focus-visible .luna-moon { transform: translateY(5px) rotate(50deg); }
     @media (hover: hover) and (pointer: fine) {
-        .featured-project .gallery-item a:hover img { transform: scale(1.025); }
+        .featured-project .gallery-item a:hover img { transform: scale(1.06); }
         .logo:hover .luna-moon { transform: translateY(5px) rotate(50deg); }
     }
 }
@@ -34,4 +45,14 @@
     48% { transform: translateY(-4px) scale(.99); }
     72% { transform: translateY(1px) scale(.995); }
     86% { transform: translateY(-1px); }
+}
+
+@keyframes book-unfold {
+    0% { clip-path: inset(0 49% 0 49%); }
+    18% { clip-path: inset(0 44% 0 44%); }
+    100% { clip-path: inset(0); }
+}
+@keyframes project-image-arrive {
+    0%, 100% { transform: scale(1); }
+    45% { transform: scale(1.06); }
 }

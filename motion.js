@@ -4,13 +4,14 @@
     const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
     const entrances = document.querySelectorAll('#hero .hero-content, .featured-project .section-heading-row, .featured-project-grid, .currently-heading-row');
     const doodles = document.querySelectorAll('.section-doodle');
+    const projectImages = document.querySelectorAll('.featured-project .gallery-item img');
     const covers = document.querySelectorAll('.currently-cover');
     let observer;
 
     function clearMotion() {
         observer?.disconnect();
-        document.querySelectorAll('.motion-enter, .motion-drawing, .motion-bounce').forEach(element => {
-            element.classList.remove('motion-enter', 'motion-drawing', 'motion-bounce');
+        document.querySelectorAll('.motion-enter, .motion-drawing, .motion-bounce, .motion-image-reveal').forEach(element => {
+            element.classList.remove('motion-enter', 'motion-drawing', 'motion-bounce', 'motion-image-reveal');
         });
     }
 
@@ -25,11 +26,14 @@
         observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (!entry.isIntersecting) return;
-                entry.target.classList.add(entry.target.classList.contains('section-doodle') ? 'motion-drawing' : 'motion-enter');
+                const element = entry.target;
+                const effect = element.classList.contains('section-doodle') ? 'motion-drawing'
+                    : element.matches('.gallery-item img') ? 'motion-image-reveal' : 'motion-enter';
+                element.classList.add(effect);
                 observer.unobserve(entry.target);
             });
-        }, { threshold: .2 });
-        [...entrances, ...doodles].forEach(element => observer.observe(element));
+        }, { threshold: .35, rootMargin: '0px 0px -15% 0px' });
+        [...entrances, ...doodles, ...projectImages].forEach(element => observer.observe(element));
     }
 
     function bounce(cover) {

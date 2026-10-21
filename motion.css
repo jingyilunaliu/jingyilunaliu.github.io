@@ -1,0 +1,37 @@
+/* Motion only: preserve the existing artwork, typography and layout. */
+@media (prefers-reduced-motion: no-preference) {
+    #hero.fade-in, #hero .fade-in { animation: none; }
+    .motion-enter { animation: home-enter 800ms cubic-bezier(.2, .7, .2, 1) both; }
+    .section-doodle.motion-drawing path {
+        stroke-dasharray: 1;
+        animation: home-draw 1500ms ease-in-out both;
+        animation-delay: var(--draw-delay, 0ms);
+    }
+    .currently-cover.motion-bounce {
+        transform-origin: 50% 75%;
+        animation: cover-bounce 620ms ease-out;
+    }
+    .featured-project .gallery-item img { transition: transform 450ms cubic-bezier(.2, .7, .2, 1); }
+    .featured-project .gallery-item a:focus-visible img { transform: scale(1.025); }
+    .logo .luna-moon { transition: transform 450ms ease; }
+    .logo:focus-visible .luna-moon { transform: translateY(5px) rotate(50deg); }
+    @media (hover: hover) and (pointer: fine) {
+        .featured-project .gallery-item a:hover img { transform: scale(1.025); }
+        .logo:hover .luna-moon { transform: translateY(5px) rotate(50deg); }
+    }
+}
+@keyframes home-enter {
+    from { opacity: .15; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes home-draw {
+    from { stroke-dashoffset: 1; }
+    to { stroke-dashoffset: 0; }
+}
+@keyframes cover-bounce {
+    0%, 100% { transform: none; }
+    22% { transform: translateY(2px) scale(.98); }
+    48% { transform: translateY(-4px) scale(.99); }
+    72% { transform: translateY(1px) scale(.995); }
+    86% { transform: translateY(-1px); }
+}

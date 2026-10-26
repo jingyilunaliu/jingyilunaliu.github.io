@@ -4,6 +4,12 @@ Source: https://jingyilunaliu.xyz/readings.html
 
 ## Readings
 
+克拉拉与太阳 (Klara and the Sun)
+
+Kazuo Ishiguro · 石黑一雄
+
+DONE · [My reading notes ↗](https://jingyilunaliu.xyz/home.html#reading-klara-and-the-sun)
+
 心态制胜 (The Inner Game of Tennis)
 
 W. Timothy Gallwey

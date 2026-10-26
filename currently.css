@@ -2,6 +2,7 @@
 .currently {
     --shelf-ink: var(--text-primary);
     --shelf-muted: var(--text-secondary);
+    --shelf-note-font: Menlo, Consolas, 'Liberation Mono', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Noto Sans SC', sans-serif;
     margin: var(--section-space) 0 0;
     position: relative;
     padding-top: 34px;
@@ -35,13 +36,13 @@
 .currently h3 { font: normal 22px/1.25 var(--font-display); letter-spacing: -0.025em; text-wrap: initial; }
 .currently .currently-creator { margin: 8px 0 0; font-size: 14px; color: var(--shelf-muted); }
 .currently blockquote { margin: 1rem 0 0; padding-top: 0.9rem; font: italic 1.05rem/1.5 var(--font-display); }
-.currently .currently-note { margin: 1rem 0 0; padding-top: 0.9rem; font: normal 1rem/1.8 var(--font-display); }
-.currently-reflection { font: normal 1rem/1.8 var(--font-display); overflow-wrap: break-word; }
+.currently .currently-note { margin: 1rem 0 0; padding-top: 0.9rem; font: normal 1rem/1.85 var(--shelf-note-font); }
+.currently-reflection { font: normal 1rem/1.85 var(--shelf-note-font); overflow-wrap: break-word; }
 .currently-notes { margin-top: 14px; }
-.currently-notes summary { width: fit-content; cursor: pointer; color: var(--accent); font: normal 14px/1.7 var(--font-body); }
+.currently-notes summary { width: fit-content; cursor: pointer; color: var(--accent); font: normal 14px/1.7 var(--shelf-note-font); }
 .currently-notes summary span { color: var(--shelf-muted); }
 .currently-notes p { margin: 16px 0 0; }
-.currently-notes .currently-research-note { padding-top: 14px; border-top: 1px solid var(--border); color: var(--shelf-muted); font: normal 14px/1.8 var(--font-display); }
+.currently-notes .currently-research-note { padding-top: 14px; border-top: 1px solid var(--border); color: var(--shelf-muted); font: normal 14px/1.8 var(--shelf-note-font); }
 .currently .currently-note-label { margin: 10px 0 0; font-size: 14px; color: var(--shelf-muted); }
 .currently .currently-source { align-self: flex-start; margin-top: 10px; font-size: 14px; color: var(--shelf-muted); text-decoration: none; text-underline-offset: 3px; }
 .currently .currently-source:hover { text-decoration: underline; }

@@ -56,7 +56,9 @@ Kazuo Ishiguro · 石黑一雄
 
 访谈也让我更留意小说里那些被称为“爱”的关系。石黑一雄说，他写作时更担心的是基因增强带来的不平等：父母为了孩子的未来，选择让他们接受“提升”，也让他们承担风险。爱里可能掺着依赖、控制，以及对孤独和失去的恐惧。读到最后，AI 与人的区别、一个人为什么不可替代、我们又为何如此需要陪伴，这些问题缠在一起，留在了书之外。
 
-写作时间补记：2017 年获诺奖时已在写作，2019 年已基本完成，2021 年出版。[作者访谈 ↗](https://www.irishtimes.com/culture/books/kazuo-ishiguro-i-have-to-be-careful-to-guard-against-genius-syndrome-1.4487541)
+写作时间补记：2017 年获诺奖时已在写作，2019 年已基本完成，2021 年出版。[作者访谈 ↗](https://www.irishtimes.com/culture/books/kazuo-ishiguro-i-have-to-be-careful-to-guard-against-genius-syndrome-1.4487541) English summary
+
+Reading *Klara and the Sun* amid the rapid development of embodied AI made Klara’s life feel less like distant science fiction. Her devotion to Josie, and the prospect of one day replacing her, left me wondering what makes a person irreplaceable and what we owe an AI companion once we no longer need her. Ishiguro’s conversation with Dua Lipa also drew my attention to genetic enhancement and the inequalities it creates. The novel left me thinking about how love can become entangled with dependence, control, loneliness, and the fear of loss.
 
 My take
 
@@ -84,7 +86,13 @@ WATCHED · FILM 03
 
 Zendaya & Robert Pattinson
 
-一部关于爱情如何穿过想象、秘密和时空，最后抵达真实的婚礼黑色喜剧
+婚礼前夕，一段往事让一对即将步入婚姻的爱侣之间有了裂隙。他开始怀疑自己是否真的认识眼前的她。一段往事可以改变我们理解一个人的方式，却未必足以定义她是谁。
+
+亲密关系中的安全感，有时来自“我知道你是谁”的确信。当这份确信动摇，信任还能走多远？这让我想起我最喜欢的 *Can’t Help Falling in Love*：“Wise men say, only fools rush in.” 爱一个人，也许总需要一点“愚勇”：无法了解对方的全部，也无法确保自己不会受伤，却仍愿意靠近、愿意相信。
+
+English summary
+
+On the eve of their wedding, a story from her past makes him question whether he truly knows the woman he loves. The past can change how we understand someone without defining who she is. When the certainty of knowing a partner falls away, how far can trust carry us? It reminds me of my favorite, *Can’t Help Falling in Love*, and its opening line: “Wise men say, only fools rush in.” Perhaps love takes a little foolish courage: choosing to draw closer and to trust, without knowing everything or being sure we won’t get hurt.
 
 My take
 

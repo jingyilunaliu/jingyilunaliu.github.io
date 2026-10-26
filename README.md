@@ -67,3 +67,5 @@ A modern, responsive personal portfolio website showcasing my professional journ
 
 ## License
 MIT License
+
+- Chinese personal notes remain the primary text. The Klara and The Drama cards offer a collapsed native `English summary` disclosure; keep these summaries aligned with the Chinese reflections when editing.

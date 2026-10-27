@@ -69,3 +69,5 @@ A modern, responsive personal portfolio website showcasing my professional journ
 MIT License
 
 - Chinese personal notes remain the primary text. The Klara and The Drama cards offer a collapsed native `English summary` disclosure; keep these summaries aligned with the Chinese reflections when editing.
+
+- Homepage project images stay at their native scale on entrance and hover. Decorative SVGs draw once, one continuous path at a time, with duration proportional to stroke length and a brief pen-lift pause. The sprout follows ground, downward stem, left leaf, right leaf; the book follows spine, pages, cover, then page edges. Reduced-motion preferences show the completed artwork immediately.

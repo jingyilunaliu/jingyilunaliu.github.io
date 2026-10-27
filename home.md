@@ -68,7 +68,7 @@ My take
 
 [![Illustrated cover: flowing blue water curving around a smooth river stone](https://jingyilunaliu.xyz/images/currently/be-water-my-friend.svg)](https://www.penguin.co.uk/books/442289/be-water-my-friend-by-shannon-lee/9781846046667)
 
-NOW READING · BOOK 02
+DONE · BOOK 02
 
 #### Be Water, My Friend
 

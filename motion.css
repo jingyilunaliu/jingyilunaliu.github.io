@@ -8,10 +8,6 @@
         animation: home-draw var(--draw-duration, 350ms) cubic-bezier(.3, .1, .45, 1) both;
         animation-delay: var(--draw-delay, 0ms);
     }
-    .currently-cover.motion-bounce {
-        transform-origin: 50% 75%;
-        animation: cover-bounce 620ms ease-out;
-    }
     .logo .luna-moon { transition: transform 450ms ease; }
     .logo:focus-visible .luna-moon { transform: translateY(5px) rotate(50deg); }
     @media (hover: hover) and (pointer: fine) {
@@ -25,11 +21,4 @@
 @keyframes home-draw {
     from { stroke-dashoffset: 1; }
     to { stroke-dashoffset: 0; }
-}
-@keyframes cover-bounce {
-    0%, 100% { transform: none; }
-    22% { transform: translateY(2px) scale(.98); }
-    48% { transform: translateY(-4px) scale(.99); }
-    72% { transform: translateY(1px) scale(.995); }
-    86% { transform: translateY(-1px); }
 }

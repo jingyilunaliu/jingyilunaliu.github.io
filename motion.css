@@ -8,6 +8,9 @@
         animation: home-draw var(--draw-duration, 350ms) cubic-bezier(.3, .1, .45, 1) both;
         animation-delay: var(--draw-delay, 0ms);
     }
+    .featured-project .section-doodle.motion-drawing path {
+        animation-timing-function: cubic-bezier(.45, 0, .55, 1);
+    }
     .logo .luna-moon { transition: transform 450ms ease; }
     .logo:focus-visible .luna-moon { transform: translateY(5px) rotate(50deg); }
     @media (hover: hover) and (pointer: fine) {

@@ -72,3 +72,6 @@
 @media (prefers-reduced-motion: reduce) {
     .currently *, .currently *::before, .currently *::after { transition: none; scroll-behavior: auto; }
 }
+
+/* Match the visible excerpt space; full reflections remain in native disclosures. */
+.currently .currently-preview { min-height: 7.4em; box-sizing: content-box; }

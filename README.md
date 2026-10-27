@@ -72,4 +72,4 @@ MIT License
 
 - Homepage project images remain stationary on entrance and hover; only the adjacent text receives an entrance animation. Decorative SVGs draw once, one continuous path at a time, with duration proportional to stroke length and a brief pen-lift pause. The sprout draws over 4.8 seconds with gentle acceleration and 120ms pen-lift pauses, following ground, downward stem, left leaf, right leaf; the book follows spine, pages, cover, then page edges. Reduced-motion preferences show the completed artwork immediately.
 
-- Shelf covers remain stationary on hover and click, with a brief opacity change for feedback. Native links, focus outlines, and horizontal touch scrolling remain intact.
+- Shelf covers remain stationary. On devices with a fine pointer and hover support, covers appear in classic monochrome and return to their original colors over 550ms on hover or keyboard focus. Touch devices display original colors, and reduced-motion preferences disable the transition. Native links, focus outlines, and horizontal touch scrolling remain intact.
